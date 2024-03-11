@@ -143,6 +143,23 @@ void RunAction::EndOfRunAction(const G4Run* run)
      << "------------------------------------------------------------"
      << G4endl
      << G4endl;
+
+  if(!IsMaster()) return;
+
+  // Compute effective dose for 1h of explosion.
+  G4double dose_1h = dose / nofEvents * (3.7e10 * 3600);
+
+  // Compute time for dose to accumulate to 20 milligray.
+  G4double hours_to_20mgy = 20e-3 * gray / dose_1h;
+
+  G4cout
+    << G4endl
+    << "Result: " << G4BestUnit(dose_1h, "Dose") << " per hour"
+    << ", " << hours_to_20mgy << " hours to " << G4BestUnit(20e-3 * gray, "Dose")
+    << ", precision " << (rmsDose / dose * 100) << "%"
+    << "."
+    << G4endl
+    << G4endl;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
