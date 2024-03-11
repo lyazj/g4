@@ -82,7 +82,12 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   auto logicalBody = new G4LogicalVolume(solidBody, bodyMaterial, "Body");
   new G4PVPlacement(bodyRotation, { 0.0, 0.0, distance * 1.1 }, logicalBody, "Body", logicalWorld, false, 0, checkOverlaps);
 
+  /*
+   * Initialize fields.
+   */
   fScoringVolume = logicalBody;
+  fSourcePosition = { 0.0, 0.0, 0.0 };
+
   return physicalWorld;
 }
 

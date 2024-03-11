@@ -31,6 +31,7 @@
 #define B1DetectorConstruction_h 1
 
 #include "G4VUserDetectorConstruction.hh"
+#include "G4ThreeVector.hh"
 #include "globals.hh"
 
 class G4VPhysicalVolume;
@@ -47,12 +48,13 @@ class DetectorConstruction : public G4VUserDetectorConstruction
     DetectorConstruction() = default;
     ~DetectorConstruction() override = default;
 
-    G4VPhysicalVolume* Construct() override;
-
-    G4LogicalVolume* GetScoringVolume() const { return fScoringVolume; }
+    G4VPhysicalVolume *Construct() override;
+    G4LogicalVolume *GetScoringVolume() const { return fScoringVolume; }
+    const G4ThreeVector &GetSourcePosition() const { return fSourcePosition; }
 
   protected:
-    G4LogicalVolume* fScoringVolume = nullptr;
+    G4LogicalVolume *fScoringVolume = nullptr;
+    G4ThreeVector fSourcePosition;
 };
 
 }

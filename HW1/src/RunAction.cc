@@ -30,15 +30,15 @@
 #include "RunAction.hh"
 #include "PrimaryGeneratorAction.hh"
 #include "DetectorConstruction.hh"
-// #include "Run.hh"
 
 #include "G4RunManager.hh"
 #include "G4Run.hh"
 #include "G4AccumulableManager.hh"
 #include "G4LogicalVolumeStore.hh"
 #include "G4LogicalVolume.hh"
-#include "G4UnitsTable.hh"
+#include "G4ParticleGun.hh"
 #include "G4SystemOfUnits.hh"
+#include "G4UnitsTable.hh"
 
 namespace B1
 {
@@ -117,6 +117,7 @@ void RunAction::EndOfRunAction(const G4Run* run)
     G4double particleEnergy = particleGun->GetParticleEnergy();
     runCondition += G4BestUnit(particleEnergy,"Energy");
   }
+  if(runCondition.empty()) runCondition = "<empty>";
 
   // Print
   //
@@ -133,10 +134,11 @@ void RunAction::EndOfRunAction(const G4Run* run)
 
   G4cout
      << G4endl
-     << " The run consists of " << nofEvents << " "<< runCondition
+     << " The run consists of " << nofEvents << " " << runCondition
+     << " for body mass " << G4BestUnit(mass, "Mass")
      << G4endl
      << " Cumulated dose per run, in scoring volume : "
-     << G4BestUnit(dose,"Dose") << " rms = " << G4BestUnit(rmsDose,"Dose")
+     << G4BestUnit(dose, "Dose") << " rms = " << G4BestUnit(rmsDose, "Dose")
      << G4endl
      << "------------------------------------------------------------"
      << G4endl
