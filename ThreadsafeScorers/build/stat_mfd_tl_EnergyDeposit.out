@@ -1,0 +1,2934 @@
+0     47235.5 [sigma: 0 | error: 0 | coeff: 0 | eff: 1 | fom: 1 | r2int: 0 | r2eff: 0 | hits: 1 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0472355
+              VAR =             0
+               SD =             0
+                R =             0
+            SHIFT =             0
+              VOV =             0
+              FOM =             0
+THE LARGEST SCORE =     0.0472355 and it happened at 0th event
+    Affected Mean =     0.0472355 and its ratio to original is 1
+     Affected VAR =             0
+       Affected R =             0
+   Affected SHIFT =             0
+     Affected FOM =             0
+Number of events of this run is too small to do convergence tests.
+1     59868.2 [sigma: 22445.5 | error: 0.530211 | coeff: 0.530211 | eff: 1 | fom: 0.0867597 | r2int: 0.140562 | r2eff: 0 | hits: 2 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0299341
+              VAR =   0.000503802
+               SD =     0.0224455
+                R =      0.530211
+            SHIFT =             0
+              VOV =   1.11022e-16
+              FOM =       5.47253
+THE LARGEST SCORE =     0.0458055 and it happened at 0th event
+    Affected Mean =     0.0352245 and its ratio to original is 1.17674
+     Affected VAR =   0.000335868 and its ratio to original is 0.666667
+       Affected R =      0.300385 and its ratio to original is 0.566538
+   Affected SHIFT =   -0.00352698
+     Affected FOM =       5.47253 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+2     960448 [sigma: 402573 | error: 0.838303 | coeff: 0.838303 | eff: 1 | fom: 0.0347067 | r2int: 0.527064 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.240112
+              VAR =      0.162065
+               SD =      0.402573
+                R =      0.838303
+            SHIFT =      0.145898
+              VOV =      0.325147
+              FOM =      0.051131
+THE LARGEST SCORE =      0.840481 and it happened at 1th event
+    Affected Mean =      0.360186 and its ratio to original is 1.50007
+     Affected VAR =      0.193638 and its ratio to original is 1.19481
+       Affected R =      0.546365 and its ratio to original is 0.651751
+   Affected SHIFT =     0.0608832 and its ratio to original is 0.417301
+     Affected FOM =     0.0341405 and its ratio to original is 0.667706
+Number of events of this run is too small to do convergence tests.
+4     68783.1 [sigma: 42212.4 | error: 0.867907 | coeff: 0.867907 | eff: 1 | fom: 0.0323795 | r2int: 0.376631 | r2eff: 0 | hits: 2 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0343915
+              VAR =    0.00178189
+               SD =     0.0422124
+                R =      0.867907
+            SHIFT =             0
+              VOV =             0
+              FOM =      0.433842
+THE LARGEST SCORE =     0.0642402 and it happened at 0th event
+    Affected Mean =     0.0443411 and its ratio to original is 1.2893
+     Affected VAR =    0.00118792 and its ratio to original is 0.666667
+       Affected R =      0.448774 and its ratio to original is 0.517075
+   Affected SHIFT =   -0.00663304
+     Affected FOM =      0.433842 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+5     362429 [sigma: 60075.1 | error: 0.370643 | coeff: 0.370643 | eff: 1 | fom: 0.177543 | r2int: 0.109901 | r2eff: 0 | hits: 5 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0724858
+              VAR =    0.00360901
+               SD =     0.0600751
+                R =      0.370643
+            SHIFT =     0.0242631
+              VOV =      0.366082
+              FOM =      0.286247
+THE LARGEST SCORE =      0.174555 and it happened at 2th event
+    Affected Mean =     0.0894973 and its ratio to original is 1.23469
+     Affected VAR =    0.00462356 and its ratio to original is 1.28111
+       Affected R =      0.310172 and its ratio to original is 0.836847
+   Affected SHIFT =     0.0131515 and its ratio to original is 0.542036
+     Affected FOM =      0.272529 and its ratio to original is 0.952078
+Number of events of this run is too small to do convergence tests.
+6     59471.6 [sigma: 12209.7 | error: 0.410607 | coeff: 0.410607 | eff: 1 | fom: 0.144665 | r2int: 0.126449 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0148679
+              VAR =   0.000149077
+               SD =     0.0122097
+                R =      0.410607
+            SHIFT =    0.00381272
+              VOV =       0.29721
+              FOM =      0.161044
+THE LARGEST SCORE =     0.0326528 and it happened at 2th event
+    Affected Mean =     0.0184249 and its ratio to original is 1.23924
+     Affected VAR =   0.000175069 and its ratio to original is 1.17435
+       Affected R =      0.321155 and its ratio to original is 0.782147
+   Affected SHIFT =     0.0014137 and its ratio to original is 0.370784
+     Affected FOM =      0.150235 and its ratio to original is 0.932877
+Number of events of this run is too small to do convergence tests.
+7     104796 [sigma: 23504.6 | error: 0.448577 | coeff: 0.448577 | eff: 1 | fom: 0.121211 | r2int: 0.150916 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0261991
+              VAR =   0.000552467
+               SD =     0.0235046
+                R =      0.448577
+            SHIFT =   0.000458935
+              VOV =     0.0315153
+              FOM =      0.235752
+THE LARGEST SCORE =     0.0509006 and it happened at 2th event
+    Affected Mean =     0.0311394 and its ratio to original is 1.18857
+     Affected VAR =   0.000536383 and its ratio to original is 0.970888
+       Affected R =      0.332616 and its ratio to original is 0.74149
+   Affected SHIFT =   -0.00285267 and its ratio to original is -6.21584
+     Affected FOM =      0.145141 and its ratio to original is 0.615654
+Number of events of this run is too small to do convergence tests.
+8     44475.7 [sigma: 16626.5 | error: 0.647497 | coeff: 0.647497 | eff: 1 | fom: 0.0581755 | r2int: 0.279502 | r2eff: 0 | hits: 3 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0148252
+              VAR =    0.00027644
+               SD =     0.0166265
+                R =      0.647497
+            SHIFT =    0.00314346
+              VOV =      0.166667
+              FOM =      0.125405
+THE LARGEST SCORE =     0.0339862 and it happened at 1th event
+    Affected Mean =     0.0196155 and its ratio to original is 1.32311
+     Affected VAR =   0.000276079 and its ratio to original is 0.998694
+       Affected R =      0.423533 and its ratio to original is 0.654108
+   Affected SHIFT =  -4.22752e-05 and its ratio to original is -0.0134486
+     Affected FOM =       0.11235 and its ratio to original is 0.895902
+Number of events of this run is too small to do convergence tests.
+9     933412 [sigma: 423012 | error: 0.906377 | coeff: 0.906377 | eff: 1 | fom: 0.0296892 | r2int: 0.61614 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.233353
+              VAR =      0.178939
+               SD =      0.423012
+                R =      0.906377
+            SHIFT =      0.158422
+              VOV =      0.333037
+              FOM =     0.0562243
+THE LARGEST SCORE =      0.867732 and it happened at 2th event
+    Affected Mean =      0.360229 and its ratio to original is 1.54371
+     Affected VAR =      0.214692 and its ratio to original is 1.1998
+       Affected R =      0.575233 and its ratio to original is 0.634651
+   Affected SHIFT =     0.0675382 and its ratio to original is 0.426318
+     Affected FOM =     0.0389522 and its ratio to original is 0.6928
+Number of events of this run is too small to do convergence tests.
+10     334251 [sigma: 47827.1 | error: 0.319953 | coeff: 0.319953 | eff: 1 | fom: 0.238255 | r2int: 0.0818961 | r2eff: 0 | hits: 5 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0668502
+              VAR =    0.00228743
+               SD =     0.0478271
+                R =      0.319953
+            SHIFT =  -0.000201156
+              VOV =     0.0832788
+              FOM =      0.413218
+THE LARGEST SCORE =      0.121991 and it happened at 0th event
+    Affected Mean =     0.0760404 and its ratio to original is 1.13747
+     Affected VAR =    0.00233671 and its ratio to original is 1.02154
+       Affected R =      0.259527 and its ratio to original is 0.811139
+   Affected SHIFT =   -0.00583873 and its ratio to original is 29.0259
+     Affected FOM =      0.413218 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+11     23226.4 [sigma: 2321.88 | error: 0.141375 | coeff: 0.141375 | eff: 1 | fom: 1.22031 | r2int: 0.00999346 | r2eff: 0 | hits: 2 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0116132
+              VAR =   5.39112e-06
+               SD =    0.00232188
+                R =      0.141375
+            SHIFT =             0
+              VOV =   1.11022e-16
+              FOM =       5.85863
+THE LARGEST SCORE =      0.013255 and it happened at 1th event
+    Affected Mean =     0.0121605 and its ratio to original is 1.04713
+     Affected VAR =   3.59408e-06 and its ratio to original is 0.666667
+       Affected R =     0.0900084 and its ratio to original is 0.636664
+   Affected SHIFT =  -0.000364848
+     Affected FOM =       2.92932 and its ratio to original is 0.5
+Number of events of this run is too small to do convergence tests.
+12     143615 [sigma: 25789.5 | error: 0.401539 | coeff: 0.401539 | eff: 1 | fom: 0.151273 | r2int: 0.128987 | r2eff: 0 | hits: 5 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.028723
+              VAR =   0.000665098
+               SD =     0.0257895
+                R =      0.401539
+            SHIFT =    0.00372841
+              VOV =      0.159971
+              FOM =      0.264373
+THE LARGEST SCORE =     0.0656595 and it happened at 4th event
+    Affected Mean =     0.0348791 and its ratio to original is 1.21433
+     Affected VAR =   0.000759462 and its ratio to original is 1.14188
+       Affected R =      0.322561 and its ratio to original is 0.803312
+   Affected SHIFT =   0.000401678 and its ratio to original is 0.107734
+     Affected FOM =      0.177104 and its ratio to original is 0.669903
+Number of events of this run is too small to do convergence tests.
+13     201337 [sigma: 25891.1 | error: 0.340233 | coeff: 0.340233 | eff: 1 | fom: 0.210699 | r2int: 0.0992218 | r2eff: 0 | hits: 7 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0287624
+              VAR =   0.000670351
+               SD =     0.0258911
+                R =      0.340233
+            SHIFT =     0.0112134
+              VOV =      0.272849
+              FOM =      0.317598
+THE LARGEST SCORE =     0.0784854 and it happened at 0th event
+    Affected Mean =     0.0349778 and its ratio to original is 1.21609
+     Affected VAR =   0.000883633 and its ratio to original is 1.31817
+       Affected R =      0.300468 and its ratio to original is 0.883125
+   Affected SHIFT =    0.00784512 and its ratio to original is 0.699621
+     Affected FOM =      0.317598 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+14     1.74838e+06 [sigma: 485658 | error: 0.555552 | coeff: 0.555552 | eff: 1 | fom: 0.0790255 | r2int: 0.231478 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.437095
+              VAR =      0.235864
+               SD =      0.485658
+                R =      0.555552
+            SHIFT =      0.125573
+              VOV =       0.24904
+              FOM =      0.172618
+THE LARGEST SCORE =       1.12185 and it happened at 1th event
+    Affected Mean =      0.574046 and its ratio to original is 1.31332
+     Affected VAR =      0.270675 and its ratio to original is 1.14759
+       Affected R =      0.405315 and its ratio to original is 0.729572
+   Affected SHIFT =     0.0370714 and its ratio to original is 0.295219
+     Affected FOM =      0.128778 and its ratio to original is 0.746025
+Number of events of this run is too small to do convergence tests.
+15     963906 [sigma: 472320 | error: 0.980012 | coeff: 0.980012 | eff: 1 | fom: 0.0253953 | r2int: 0.720318 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.240977
+              VAR =      0.223086
+               SD =       0.47232
+                R =      0.980012
+            SHIFT =      0.177117
+              VOV =      0.333329
+              FOM =     0.0319095
+THE LARGEST SCORE =      0.949455 and it happened at 2th event
+    Affected Mean =      0.382672 and its ratio to original is 1.58801
+     Affected VAR =      0.267703 and its ratio to original is 1.2
+       Affected R =      0.604665 and its ratio to original is 0.616997
+   Affected SHIFT =      0.075569 and its ratio to original is 0.426662
+     Affected FOM =     0.0307958 and its ratio to original is 0.965099
+Number of events of this run is too small to do convergence tests.
+16     267314 [sigma: 77517.6 | error: 0.579975 | coeff: 0.579975 | eff: 1 | fom: 0.0725099 | r2int: 0.252279 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0668284
+              VAR =    0.00600899
+               SD =     0.0775176
+                R =      0.579975
+            SHIFT =     0.0258644
+              VOV =      0.307113
+              FOM =      0.132012
+THE LARGEST SCORE =      0.180866 and it happened at 0th event
+    Affected Mean =     0.0896359 and its ratio to original is 1.34129
+     Affected VAR =    0.00710766 and its ratio to original is 1.18284
+       Affected R =      0.420626 and its ratio to original is 0.725248
+   Affected SHIFT =     0.0101545 and its ratio to original is 0.392605
+     Affected FOM =      0.132012 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+17     134493 [sigma: 55852.6 | error: 0.719291 | coeff: 0.719291 | eff: 1 | fom: 0.0471418 | r2int: 0.34492 | r2eff: 0 | hits: 3 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0448309
+              VAR =    0.00311951
+               SD =     0.0558526
+                R =      0.719291
+            SHIFT =    0.00870486
+              VOV =      0.166667
+              FOM =        0.3216
+THE LARGEST SCORE =      0.107921 and it happened at 0th event
+    Affected Mean =     0.0606034 and its ratio to original is 1.35182
+     Affected VAR =    0.00307476 and its ratio to original is 0.985654
+       Affected R =      0.457487 and its ratio to original is 0.636024
+   Affected SHIFT =   -0.00154952 and its ratio to original is -0.178007
+     Affected FOM =        0.3216 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+18     21354.5 [sigma: 0 | error: 0 | coeff: 0 | eff: 1 | fom: 1 | r2int: 2.22045e-16 | r2eff: 0 | hits: 1 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0213545
+              VAR =             0
+               SD =             0
+                R =             0
+            SHIFT =             0
+              VOV =             0
+              FOM =             0
+THE LARGEST SCORE =     0.0213545 and it happened at 0th event
+    Affected Mean =     0.0213545 and its ratio to original is 1
+     Affected VAR =             0
+       Affected R =             0
+   Affected SHIFT =             0
+     Affected FOM =             0
+Number of events of this run is too small to do convergence tests.
+19     970955 [sigma: 361293 | error: 0.832041 | coeff: 0.832041 | eff: 1 | fom: 0.0352311 | r2int: 0.553834 | r2eff: 0 | hits: 5 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.194191
+              VAR =      0.130532
+               SD =      0.361293
+                R =      0.832041
+            SHIFT =      0.190612
+              VOV =      0.442835
+              FOM =     0.0784615
+THE LARGEST SCORE =       0.83824 and it happened at 0th event
+    Affected Mean =      0.301533 and its ratio to original is 1.55276
+     Affected VAR =      0.173559 and its ratio to original is 1.32963
+       Affected R =      0.564045 and its ratio to original is 0.677905
+   Affected SHIFT =      0.109996 and its ratio to original is 0.577066
+     Affected FOM =     0.0784615 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+20     622120 [sigma: 241616 | error: 0.776749 | coeff: 0.776749 | eff: 1 | fom: 0.0404254 | r2int: 0.452504 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.15553
+              VAR =     0.0583781
+               SD =      0.241616
+                R =      0.776749
+            SHIFT =     0.0892583
+              VOV =      0.330025
+              FOM =     0.0881619
+THE LARGEST SCORE =      0.517051 and it happened at 0th event
+    Affected Mean =      0.227834 and its ratio to original is 1.46489
+     Affected VAR =     0.0699231 and its ratio to original is 1.19776
+       Affected R =      0.519046 and its ratio to original is 0.668229
+   Affected SHIFT =     0.0377228 and its ratio to original is 0.422625
+     Affected FOM =     0.0881619 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+21     328802 [sigma: 105783 | error: 0.643445 | coeff: 0.643445 | eff: 1 | fom: 0.0589105 | r2int: 0.310516 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0822005
+              VAR =       0.01119
+               SD =      0.105783
+                R =      0.643445
+            SHIFT =     0.0342193
+              VOV =      0.304077
+              FOM =     0.0990296
+THE LARGEST SCORE =      0.237151 and it happened at 0th event
+    Affected Mean =      0.113191 and its ratio to original is 1.37701
+     Affected VAR =     0.0131944 and its ratio to original is 1.17912
+       Affected R =      0.453838 and its ratio to original is 0.705324
+   Affected SHIFT =     0.0130968 and its ratio to original is 0.38273
+     Affected FOM =     0.0990296 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+22     226245 [sigma: 124811 | error: 0.955509 | coeff: 0.955509 | eff: 1 | fom: 0.0267145 | r2int: 0.608665 | r2eff: 0 | hits: 3 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.075415
+              VAR =     0.0155778
+               SD =      0.124811
+                R =      0.955509
+            SHIFT =     0.0240066
+              VOV =      0.166667
+              FOM =     0.0390062
+THE LARGEST SCORE =      0.219526 and it happened at 1th event
+    Affected Mean =      0.111443 and its ratio to original is 1.47773
+     Affected VAR =     0.0155772 and its ratio to original is 0.999959
+       Affected R =      0.559967 and its ratio to original is 0.586041
+   Affected SHIFT =  -9.94592e-06 and its ratio to original is -0.000414299
+     Affected FOM =     0.0271718 and its ratio to original is 0.696601
+Number of events of this run is too small to do convergence tests.
+23     471667 [sigma: 114630 | error: 0.543435 | coeff: 0.543435 | eff: 1 | fom: 0.0825889 | r2int: 0.236257 | r2eff: 0 | hits: 5 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0943335
+              VAR =       0.01314
+               SD =       0.11463
+                R =      0.543435
+            SHIFT =     0.0598767
+              VOV =      0.439339
+              FOM =     0.0967746
+THE LARGEST SCORE =      0.298288 and it happened at 3th event
+    Affected Mean =      0.128326 and its ratio to original is 1.36034
+     Affected VAR =     0.0174449 and its ratio to original is 1.32761
+       Affected R =      0.420189 and its ratio to original is 0.77321
+   Affected SHIFT =     0.0344952 and its ratio to original is 0.576104
+     Affected FOM =     0.0960063 and its ratio to original is 0.992061
+Number of events of this run is too small to do convergence tests.
+24     219342 [sigma: 14673.6 | error: 0.0946087 | coeff: 0.0946087 | eff: 1 | fom: 2.72492 | r2int: 0.0044754 | r2eff: 0 | hits: 2 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.109671
+              VAR =   0.000215316
+               SD =     0.0146736
+                R =     0.0946087
+            SHIFT =   5.16325e-18
+              VOV =             0
+              FOM =       9.56523
+THE LARGEST SCORE =      0.120047 and it happened at 0th event
+    Affected Mean =       0.11313 and its ratio to original is 1.03154
+     Affected VAR =   0.000143544 and its ratio to original is 0.666667
+       Affected R =     0.0611442 and its ratio to original is 0.646285
+   Affected SHIFT =   -0.00230574 and its ratio to original is -4.46567e+14
+     Affected FOM =       9.56523 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+25     3.80352e+06 [sigma: 1.0864e+06 | error: 0.57126 | coeff: 0.57126 | eff: 1 | fom: 0.0747392 | r2int: 0.244753 | r2eff: 0 | hits: 4 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.95088
+              VAR =       1.18026
+               SD =        1.0864
+                R =       0.57126
+            SHIFT =  -1.10271e-05
+              VOV =   0.000104317
+              FOM =       0.12272
+THE LARGEST SCORE =        1.9008 and it happened at 3th event
+    Affected Mean =       1.14086 and its ratio to original is 1.1998
+     Affected VAR =       1.06567 and its ratio to original is 0.902905
+       Affected R =      0.404662 and its ratio to original is 0.708367
+   Affected SHIFT =     -0.150774 and its ratio to original is 13673
+     Affected FOM =      0.087178 and its ratio to original is 0.710384
+Number of events of this run is too small to do convergence tests.
+26     1.16121e+06 [sigma: 95859.6 | error: 0.297644 | coeff: 0.297644 | eff: 1 | fom: 0.27531 | r2int: 0.0817771 | r2eff: 0 | hits: 13 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0893237
+              VAR =    0.00918906
+               SD =     0.0958596
+                R =      0.297644
+            SHIFT =      0.063649
+              VOV =      0.241702
+              FOM =      0.299488
+THE LARGEST SCORE =      0.331867 and it happened at 7th event
+    Affected Mean =      0.106648 and its ratio to original is 1.19395
+     Affected VAR =     0.0126841 and its ratio to original is 1.38035
+       Affected R =      0.282236 and its ratio to original is 0.948235
+   Affected SHIFT =     0.0586557 and its ratio to original is 0.921549
+     Affected FOM =      0.244111 and its ratio to original is 0.815095
+Number of events of this run is too small to do convergence tests.
+27     2.44268e+06 [sigma: 531327 | error: 0.813877 | coeff: 0.813877 | eff: 1 | fom: 0.0368213 | r2int: 0.615081 | r2eff: 0 | hits: 14 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.174477
+              VAR =      0.282308
+               SD =      0.531327
+                R =      0.813877
+            SHIFT =      0.785157
+              VOV =      0.783754
+              FOM =     0.0589255
+THE LARGEST SCORE =       2.01645 and it happened at 12th event
+    Affected Mean =      0.297276 and its ratio to original is 1.70381
+     Affected VAR =      0.488335 and its ratio to original is 1.72979
+       Affected R =      0.606951 and its ratio to original is 0.745753
+   Affected SHIFT =       0.67642 and its ratio to original is 0.861509
+     Affected FOM =     0.0579974 and its ratio to original is 0.984249
+Number of events of this run is too small to do convergence tests.
+28     260452 [sigma: 37311 | error: 0.429764 | coeff: 0.429764 | eff: 1 | fom: 0.132055 | r2int: 0.164175 | r2eff: 0 | hits: 9 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0289391
+              VAR =    0.00139211
+               SD =      0.037311
+                R =      0.429764
+            SHIFT =     0.0236989
+              VOV =      0.371962
+              FOM =      0.165321
+THE LARGEST SCORE =      0.116093 and it happened at 4th event
+    Affected Mean =     0.0376546 and its ratio to original is 1.30116
+     Affected VAR =    0.00199702 and its ratio to original is 1.43452
+       Affected R =      0.375296 and its ratio to original is 0.873259
+   Affected SHIFT =     0.0195118 and its ratio to original is 0.823319
+     Affected FOM =      0.158127 and its ratio to original is 0.956484
+Number of events of this run is too small to do convergence tests.
+29     266191 [sigma: 96697.8 | error: 0.812285 | coeff: 0.812285 | eff: 1 | fom: 0.0369657 | r2int: 0.527846 | r2eff: 0 | hits: 5 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0532382
+              VAR =    0.00935046
+               SD =     0.0966978
+                R =      0.812285
+            SHIFT =     0.0515307
+              VOV =      0.447228
+              FOM =      0.452416
+THE LARGEST SCORE =      0.225975 and it happened at 0th event
+    Affected Mean =     0.0820276 and its ratio to original is 1.54077
+     Affected VAR =     0.0124534 and its ratio to original is 1.33185
+       Affected R =      0.555402 and its ratio to original is 0.683753
+   Affected SHIFT =     0.0297873 and its ratio to original is 0.578049
+     Affected FOM =      0.452416 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+30     3.08522e+06 [sigma: 749292 | error: 0.64256 | coeff: 0.64256 | eff: 1 | fom: 0.059073 | r2int: 0.3539 | r2eff: 0 | hits: 7 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.440746
+              VAR =      0.561438
+               SD =      0.749292
+                R =       0.64256
+            SHIFT =      0.370942
+              VOV =      0.270069
+              FOM =       0.10267
+THE LARGEST SCORE =       1.88625 and it happened at 3th event
+    Affected Mean =      0.621434 and its ratio to original is 1.40996
+     Affected VAR =      0.742417 and its ratio to original is 1.32235
+       Affected R =      0.490212 and its ratio to original is 0.762905
+   Affected SHIFT =      0.258593 and its ratio to original is 0.697125
+     Affected FOM =     0.0904067 and its ratio to original is 0.880552
+Number of events of this run is too small to do convergence tests.
+31     2.43426e+06 [sigma: 253809 | error: 0.489048 | coeff: 0.489048 | eff: 1 | fom: 0.10198 | r2int: 0.228296 | r2eff: 0 | hits: 22 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.110648
+              VAR =     0.0644191
+               SD =      0.253809
+                R =      0.489048
+            SHIFT =      0.412156
+              VOV =       0.61701
+              FOM =      0.115057
+THE LARGEST SCORE =       1.15733 and it happened at 5th event
+    Affected Mean =      0.156156 and its ratio to original is 1.41128
+     Affected VAR =      0.109123 and its ratio to original is 1.69395
+       Affected R =      0.441098 and its ratio to original is 0.901953
+   Affected SHIFT =      0.395442 and its ratio to original is 0.959448
+     Affected FOM =       0.11035 and its ratio to original is 0.959092
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.489048
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+32     4.69973e+06 [sigma: 409441 | error: 0.444227 | coeff: 0.444227 | eff: 1 | fom: 0.123596 | r2int: 0.189748 | r2eff: 0 | hits: 26 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.180759
+              VAR =      0.167642
+               SD =      0.409441
+                R =      0.444227
+            SHIFT =      0.691673
+              VOV =      0.560146
+              FOM =      0.137441
+THE LARGEST SCORE =       1.96972 and it happened at 9th event
+    Affected Mean =      0.247017 and its ratio to original is 1.36655
+     Affected VAR =      0.279727 and its ratio to original is 1.6686
+       Affected R =      0.412059 and its ratio to original is 0.927585
+   Affected SHIFT =      0.681977 and its ratio to original is 0.985981
+     Affected FOM =      0.132482 and its ratio to original is 0.963922
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.444227
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+33     2.39495e+06 [sigma: 275280 | error: 0.459767 | coeff: 0.459767 | eff: 1 | fom: 0.115382 | r2int: 0.198174 | r2eff: 0 | hits: 16 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.149684
+              VAR =     0.0757792
+               SD =       0.27528
+                R =      0.459767
+            SHIFT =      0.329672
+              VOV =      0.521845
+              FOM =       0.13788
+THE LARGEST SCORE =       1.07965 and it happened at 4th event
+    Affected Mean =      0.204388 and its ratio to original is 1.36546
+     Affected VAR =      0.121916 and its ratio to original is 1.60883
+       Affected R =      0.414333 and its ratio to original is 0.901179
+   Affected SHIFT =      0.308987 and its ratio to original is 0.937257
+     Affected FOM =      0.129714 and its ratio to original is 0.940773
+Number of events of this run is too small to do convergence tests.
+34     1.47909e+06 [sigma: 202123 | error: 0.409961 | coeff: 0.409961 | eff: 1 | fom: 0.145121 | r2int: 0.149394 | r2eff: 0 | hits: 9 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.164343
+              VAR =     0.0408536
+               SD =      0.202123
+                R =      0.409961
+            SHIFT =     0.0876244
+              VOV =      0.166064
+              FOM =       0.24546
+THE LARGEST SCORE =      0.533368 and it happened at 4th event
+    Affected Mean =      0.201245 and its ratio to original is 1.22455
+     Affected VAR =     0.0499322 and its ratio to original is 1.22222
+       Affected R =      0.351127 and its ratio to original is 0.856489
+   Affected SHIFT =     0.0645236 and its ratio to original is 0.736365
+     Affected FOM =      0.225805 and its ratio to original is 0.919924
+Number of events of this run is too small to do convergence tests.
+35     3.26272e+06 [sigma: 482498 | error: 0.591529 | coeff: 0.591529 | eff: 1 | fom: 0.0697051 | r2int: 0.328037 | r2eff: 0 | hits: 16 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.20392
+              VAR =      0.232804
+               SD =      0.482498
+                R =      0.591529
+            SHIFT =      0.699084
+              VOV =      0.684277
+              FOM =     0.0777874
+THE LARGEST SCORE =       1.93986 and it happened at 3th event
+    Affected Mean =      0.306034 and its ratio to original is 1.50075
+     Affected VAR =      0.395517 and its ratio to original is 1.69893
+       Affected R =      0.498412 and its ratio to original is 0.842584
+   Affected SHIFT =      0.630781 and its ratio to original is 0.902296
+     Affected FOM =     0.0744635 and its ratio to original is 0.957269
+Number of events of this run is too small to do convergence tests.
+36     4.25159e+06 [sigma: 514508 | error: 0.527494 | coeff: 0.527494 | eff: 1 | fom: 0.087656 | r2int: 0.263605 | r2eff: 0 | hits: 19 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.223768
+              VAR =      0.264718
+               SD =      0.514508
+                R =      0.527494
+            SHIFT =      0.714524
+              VOV =      0.533845
+              FOM =     0.0959395
+THE LARGEST SCORE =       2.11939 and it happened at 4th event
+    Affected Mean =      0.318549 and its ratio to original is 1.42357
+     Affected VAR =      0.430454 and its ratio to original is 1.62608
+       Affected R =      0.460545 and its ratio to original is 0.873082
+   Affected SHIFT =         0.677 and its ratio to original is 0.947484
+     Affected FOM =     0.0937619 and its ratio to original is 0.977302
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.527494
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+37     6.202e+06 [sigma: 689227 | error: 0.53296 | coeff: 0.53296 | eff: 1 | fom: 0.0858672 | r2int: 0.271696 | r2eff: 0 | hits: 23 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.269652
+              VAR =      0.475035
+               SD =      0.689227
+                R =       0.53296
+            SHIFT =       1.03274
+              VOV =      0.496193
+              FOM =      0.094309
+THE LARGEST SCORE =       3.00039 and it happened at 15th event
+    Affected Mean =      0.383433 and its ratio to original is 1.42195
+     Affected VAR =      0.765087 and its ratio to original is 1.61059
+       Affected R =       0.46565 and its ratio to original is 0.873706
+   Affected SHIFT =       1.00446 and its ratio to original is 0.972618
+     Affected FOM =      0.093433 and its ratio to original is 0.990711
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.53296
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+38     2.22768e+06 [sigma: 249709 | error: 0.462174 | coeff: 0.462174 | eff: 1 | fom: 0.114184 | r2int: 0.20104 | r2eff: 0 | hits: 17 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.13104
+              VAR =     0.0623546
+               SD =      0.249709
+                R =      0.462174
+            SHIFT =      0.329658
+              VOV =      0.567656
+              FOM =      0.129289
+THE LARGEST SCORE =       1.01795 and it happened at 13th event
+    Affected Mean =      0.180313 and its ratio to original is 1.37601
+     Affected VAR =      0.102387 and its ratio to original is 1.64201
+       Affected R =      0.418273 and its ratio to original is 0.905011
+   Affected SHIFT =      0.308497 and its ratio to original is 0.935808
+     Affected FOM =      0.127667 and its ratio to original is 0.987456
+Number of events of this run is too small to do convergence tests.
+39     2.6634e+06 [sigma: 530689 | error: 0.660846 | coeff: 0.660846 | eff: 1 | fom: 0.055849 | r2int: 0.397016 | r2eff: 0 | hits: 11 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.242127
+              VAR =      0.281631
+               SD =      0.530689
+                R =      0.660846
+            SHIFT =      0.553358
+              VOV =      0.575955
+              FOM =     0.0756211
+THE LARGEST SCORE =       1.75613 and it happened at 2th event
+    Affected Mean =      0.368294 and its ratio to original is 1.52108
+     Affected VAR =      0.447046 and its ratio to original is 1.58735
+       Affected R =      0.524071 and its ratio to original is 0.793031
+   Affected SHIFT =      0.467288 and its ratio to original is 0.844459
+     Affected FOM =     0.0735327 and its ratio to original is 0.972383
+Number of events of this run is too small to do convergence tests.
+40     1.85571e+06 [sigma: 262982 | error: 0.470016 | coeff: 0.470016 | eff: 1 | fom: 0.110406 | r2int: 0.200832 | r2eff: 0 | hits: 11 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.168701
+              VAR =     0.0691598
+               SD =      0.262982
+                R =      0.470016
+            SHIFT =      0.257012
+              VOV =      0.543327
+              FOM =      0.133254
+THE LARGEST SCORE =      0.909156 and it happened at 9th event
+    Affected Mean =      0.230406 and its ratio to original is 1.36576
+     Affected VAR =      0.108562 and its ratio to original is 1.56973
+       Affected R =      0.412815 and its ratio to original is 0.878299
+   Affected SHIFT =      0.219975 and its ratio to original is 0.855892
+     Affected FOM =      0.129814 and its ratio to original is 0.97419
+Number of events of this run is too small to do convergence tests.
+41     3.09206e+06 [sigma: 513592 | error: 0.575388 | coeff: 0.575388 | eff: 1 | fom: 0.0736707 | r2int: 0.303482 | r2eff: 0 | hits: 12 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.257672
+              VAR =      0.263777
+               SD =      0.513592
+                R =      0.575388
+            SHIFT =      0.633086
+              VOV =      0.693795
+              FOM =     0.0954344
+THE LARGEST SCORE =       1.85597 and it happened at 0th event
+    Affected Mean =      0.380618 and its ratio to original is 1.47714
+     Affected VAR =      0.438301 and its ratio to original is 1.66163
+       Affected R =      0.482419 and its ratio to original is 0.838425
+   Affected SHIFT =      0.537627 and its ratio to original is 0.849216
+     Affected FOM =     0.0954344 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+42     4.28715e+06 [sigma: 581806 | error: 0.591544 | coeff: 0.591544 | eff: 1 | fom: 0.0697016 | r2int: 0.331507 | r2eff: 0 | hits: 19 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.225639
+              VAR =      0.338498
+               SD =      0.581806
+                R =      0.591544
+            SHIFT =      0.790784
+              VOV =      0.501844
+              FOM =      0.080614
+THE LARGEST SCORE =       2.32818 and it happened at 1th event
+    Affected Mean =      0.330766 and its ratio to original is 1.46591
+     Affected VAR =      0.541717 and its ratio to original is 1.60035
+       Affected R =      0.497565 and its ratio to original is 0.84113
+   Affected SHIFT =      0.747491 and its ratio to original is 0.945254
+     Affected FOM =     0.0752836 and its ratio to original is 0.933878
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.591544
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+43     4.99787e+06 [sigma: 765549 | error: 0.573129 | coeff: 0.573129 | eff: 1 | fom: 0.0742526 | r2int: 0.305014 | r2eff: 0 | hits: 14 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.35699
+              VAR =      0.586065
+               SD =      0.765549
+                R =      0.573129
+            SHIFT =       0.74946
+              VOV =      0.371422
+              FOM =      0.113638
+THE LARGEST SCORE =       2.53539 and it happened at 3th event
+    Affected Mean =      0.502217 and its ratio to original is 1.40681
+     Affected VAR =      0.860565 and its ratio to original is 1.46838
+       Affected R =       0.47693 and its ratio to original is 0.832152
+   Affected SHIFT =      0.671689 and its ratio to original is 0.896231
+     Affected FOM =      0.108844 and its ratio to original is 0.957812
+Number of events of this run is too small to do convergence tests.
+44     1.0327e+06 [sigma: 167154 | error: 0.583601 | coeff: 0.583601 | eff: 1 | fom: 0.0716117 | r2int: 0.314391 | r2eff: 0 | hits: 13 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0794383
+              VAR =     0.0279405
+               SD =      0.167154
+                R =      0.583601
+            SHIFT =      0.219384
+              VOV =      0.709593
+              FOM =     0.0823585
+THE LARGEST SCORE =       0.62446 and it happened at 3th event
+    Affected Mean =      0.118368 and its ratio to original is 1.49007
+     Affected VAR =      0.047009 and its ratio to original is 1.68247
+       Affected R =      0.489543 and its ratio to original is 0.838832
+   Affected SHIFT =      0.189228 and its ratio to original is 0.862542
+     Affected FOM =     0.0624167 and its ratio to original is 0.757866
+Number of events of this run is too small to do convergence tests.
+45     592078 [sigma: 45111 | error: 0.27471 | coeff: 0.27471 | eff: 1 | fom: 0.323196 | r2int: 0.0696607 | r2eff: 0 | hits: 13 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0455445
+              VAR =      0.002035
+               SD =      0.045111
+                R =       0.27471
+            SHIFT =     0.0340787
+              VOV =      0.351501
+              FOM =      0.426765
+THE LARGEST SCORE =        0.1702 and it happened at 2th event
+    Affected Mean =     0.0544485 and its ratio to original is 1.1955
+     Affected VAR =    0.00298839 and its ratio to original is 1.4685
+       Affected R =       0.26833 and its ratio to original is 0.976775
+   Affected SHIFT =     0.0321782 and its ratio to original is 0.944234
+     Affected FOM =      0.413837 and its ratio to original is 0.969706
+Number of events of this run is too small to do convergence tests.
+46     234615 [sigma: 54311.1 | error: 0.517628 | coeff: 0.517628 | eff: 1 | fom: 0.0910293 | r2int: 0.214351 | r2eff: 0 | hits: 5 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.046923
+              VAR =    0.00294969
+               SD =     0.0543111
+                R =      0.517628
+            SHIFT =     0.0152204
+              VOV =      0.216162
+              FOM =      0.129411
+THE LARGEST SCORE =      0.131318 and it happened at 2th event
+    Affected Mean =     0.0609889 and its ratio to original is 1.29976
+     Affected VAR =    0.00354685 and its ratio to original is 1.20245
+       Affected R =      0.398653 and its ratio to original is 0.770154
+   Affected SHIFT =    0.00669669 and its ratio to original is 0.439981
+     Affected FOM =      0.110486 and its ratio to original is 0.85376
+Number of events of this run is too small to do convergence tests.
+47     1.26059e+06 [sigma: 132523 | error: 0.446019 | coeff: 0.446019 | eff: 1 | fom: 0.122605 | r2int: 0.187881 | r2eff: 0 | hits: 18 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.070033
+              VAR =     0.0175625
+               SD =      0.132523
+                R =      0.446019
+            SHIFT =      0.218614
+              VOV =      0.760534
+              FOM =       0.14168
+THE LARGEST SCORE =      0.589185 and it happened at 2th event
+    Affected Mean =     0.0973568 and its ratio to original is 1.39016
+     Affected VAR =      0.030772 and its ratio to original is 1.75214
+       Affected R =      0.413366 and its ratio to original is 0.926789
+   Affected SHIFT =      0.198701 and its ratio to original is 0.908914
+     Affected FOM =      0.125891 and its ratio to original is 0.888555
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.446019
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+48     442979 [sigma: 70552.9 | error: 0.528235 | coeff: 0.528235 | eff: 1 | fom: 0.08741 | r2int: 0.253666 | r2eff: 0 | hits: 11 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0402709
+              VAR =    0.00497771
+               SD =     0.0705529
+                R =      0.528235
+            SHIFT =      0.055806
+              VOV =      0.333702
+              FOM =     0.0955683
+THE LARGEST SCORE =       0.21512 and it happened at 0th event
+    Affected Mean =     0.0548416 and its ratio to original is 1.36182
+     Affected VAR =    0.00707288 and its ratio to original is 1.42091
+       Affected R =      0.442687 and its ratio to original is 0.838049
+   Affected SHIFT =     0.0472392 and its ratio to original is 0.846491
+     Affected FOM =     0.0955683 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+49     241927 [sigma: 50876.7 | error: 0.364246 | coeff: 0.364246 | eff: 1 | fom: 0.183834 | r2int: 0.0884501 | r2eff: 0 | hits: 3 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0806424
+              VAR =    0.00258844
+               SD =     0.0508767
+                R =      0.364246
+            SHIFT =    0.00963816
+              VOV =      0.166667
+              FOM =       1.07983
+THE LARGEST SCORE =      0.139288 and it happened at 0th event
+    Affected Mean =     0.0953037 and its ratio to original is 1.18181
+     Affected VAR =    0.00258544 and its ratio to original is 0.99884
+       Affected R =      0.266764 and its ratio to original is 0.732373
+   Affected SHIFT =  -0.000114902 and its ratio to original is -0.0119216
+     Affected FOM =       1.07983 and its ratio to original is 1
+Number of events of this run is too small to do convergence tests.
+50     776088 [sigma: 91625.2 | error: 0.441741 | coeff: 0.441741 | eff: 1 | fom: 0.124991 | r2int: 0.181197 | r2eff: 0 | hits: 14 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0554349
+              VAR =    0.00839517
+               SD =     0.0916252
+                R =      0.441741
+            SHIFT =      0.109879
+              VOV =      0.594383
+              FOM =       0.13335
+THE LARGEST SCORE =      0.353443 and it happened at 5th event
+    Affected Mean =     0.0753021 and its ratio to original is 1.35839
+     Affected VAR =     0.0137161 and its ratio to original is 1.63381
+       Affected R =      0.401572 and its ratio to original is 0.909065
+   Affected SHIFT =     0.0989878 and its ratio to original is 0.900879
+     Affected FOM =      0.126099 and its ratio to original is 0.94562
+Number of events of this run is too small to do convergence tests.
+51     5.84792e+06 [sigma: 332998 | error: 0.355609 | coeff: 0.355609 | eff: 1 | fom: 0.192873 | r2int: 0.123215 | r2eff: 0 | hits: 39 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.149947
+              VAR =      0.110888
+               SD =      0.332998
+                R =      0.355609
+            SHIFT =      0.509532
+              VOV =      0.290885
+              FOM =      0.200451
+THE LARGEST SCORE =         1.507 and it happened at 33th event
+    Affected Mean =      0.183873 and its ratio to original is 1.22626
+     Affected VAR =      0.154084 and its ratio to original is 1.38955
+       Affected R =      0.337545 and its ratio to original is 0.949202
+   Affected SHIFT =      0.510518 and its ratio to original is 1.00194
+     Affected FOM =      0.199994 and its ratio to original is 0.997724
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.355609
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+52     8.21346e+06 [sigma: 313355 | error: 0.264321 | coeff: 0.264321 | eff: 1 | fom: 0.349103 | r2int: 0.0684099 | r2eff: 0 | hits: 48 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.171114
+              VAR =     0.0981914
+               SD =      0.313355
+                R =      0.264321
+            SHIFT =      0.376861
+              VOV =      0.176824
+              FOM =      0.363741
+THE LARGEST SCORE =       1.52911 and it happened at 34th event
+    Affected Mean =      0.198828 and its ratio to original is 1.16196
+     Affected VAR =      0.133781 and its ratio to original is 1.36246
+       Affected R =      0.262798 and its ratio to original is 0.99424
+   Affected SHIFT =      0.421174 and its ratio to original is 1.11758
+     Affected FOM =      0.362452 and its ratio to original is 0.996455
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.264321
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 2 / 8 Convergence Test.
+
+53     6.67843e+06 [sigma: 441659 | error: 0.423453 | coeff: 0.423453 | eff: 1 | fom: 0.136021 | r2int: 0.174939 | r2eff: 0 | hits: 41 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.162888
+              VAR =      0.195063
+               SD =      0.441659
+                R =      0.423453
+            SHIFT =      0.786341
+              VOV =      0.357027
+              FOM =      0.156918
+THE LARGEST SCORE =       2.06698 and it happened at 40th event
+    Affected Mean =      0.208224 and its ratio to original is 1.27832
+     Affected VAR =      0.276629 and its ratio to original is 1.41815
+       Affected R =      0.389756 and its ratio to original is 0.920424
+   Affected SHIFT =       0.77182 and its ratio to original is 0.981533
+     Affected FOM =      0.154398 and its ratio to original is 0.983942
+MEAN distribution is not RANDOM
+r does not follow 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.423453
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 1 / 8 Convergence Test.
+
+54     212090 [sigma: 44768.9 | error: 0.700087 | coeff: 0.700087 | eff: 1 | fom: 0.0497636 | r2int: 0.445566 | r2eff: 0 | hits: 11 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0192809
+              VAR =    0.00200425
+               SD =     0.0447689
+                R =      0.700087
+            SHIFT =     0.0522939
+              VOV =       0.68722
+              FOM =     0.0600797
+THE LARGEST SCORE =      0.152168 and it happened at 8th event
+    Affected Mean =     0.0303548 and its ratio to original is 1.57434
+     Affected VAR =    0.00329362 and its ratio to original is 1.64332
+       Affected R =      0.545781 and its ratio to original is 0.77959
+   Affected SHIFT =     0.0434241 and its ratio to original is 0.830386
+     Affected FOM =     0.0570715 and its ratio to original is 0.94993
+Number of events of this run is too small to do convergence tests.
+55     3.84808e+06 [sigma: 280206 | error: 0.460536 | coeff: 0.460536 | eff: 1 | fom: 0.114997 | r2int: 0.206792 | r2eff: 0 | hits: 40 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0962019
+              VAR =     0.0785155
+               SD =      0.280206
+                R =      0.460536
+            SHIFT =      0.718547
+              VOV =       0.76953
+              FOM =      0.123783
+THE LARGEST SCORE =       1.74798 and it happened at 30th event
+    Affected Mean =      0.136489 and its ratio to original is 1.41878
+     Affected VAR =      0.143098 and its ratio to original is 1.82254
+       Affected R =      0.432839 and its ratio to original is 0.939859
+   Affected SHIFT =      0.709518 and its ratio to original is 0.987435
+     Affected FOM =      0.122401 and its ratio to original is 0.988837
+MEAN distribution is not RANDOM
+r does not follow 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.460536
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 1 / 8 Convergence Test.
+
+56     2.3937e+07 [sigma: 694144 | error: 0.23913 | coeff: 0.23913 | eff: 1 | fom: 0.426529 | r2int: 0.0563422 | r2eff: 0 | hits: 68 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.352015
+              VAR =      0.481836
+               SD =      0.694144
+                R =       0.23913
+            SHIFT =       0.72834
+              VOV =       0.07369
+              FOM =      0.448057
+THE LARGEST SCORE =       2.40998 and it happened at 56th event
+    Affected Mean =      0.381841 and its ratio to original is 1.08473
+     Affected VAR =       0.53613 and its ratio to original is 1.11268
+       Affected R =      0.230849 and its ratio to original is 0.965372
+   Affected SHIFT =      0.718785 and its ratio to original is 0.98688
+     Affected FOM =      0.440606 and its ratio to original is 0.983371
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.23913
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+57     2.90925e+07 [sigma: 714307 | error: 0.222337 | coeff: 0.222337 | eff: 1 | fom: 0.493395 | r2int: 0.0488307 | r2eff: 0 | hits: 82 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.354787
+              VAR =      0.510235
+               SD =      0.714307
+                R =      0.222337
+            SHIFT =      0.835883
+              VOV =     0.0760246
+              FOM =      0.505603
+THE LARGEST SCORE =        2.8433 and it happened at 51th event
+    Affected Mean =      0.384769 and its ratio to original is 1.08451
+     Affected VAR =      0.578623 and its ratio to original is 1.13403
+       Affected R =         0.217 and its ratio to original is 0.975997
+   Affected SHIFT =      0.844195 and its ratio to original is 1.00994
+     Affected FOM =      0.494118 and its ratio to original is 0.977284
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.222337
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+58     1.42301e+07 [sigma: 576250 | error: 0.289194 | coeff: 0.289194 | eff: 1 | fom: 0.291634 | r2int: 0.0819931 | r2eff: 0 | hits: 51 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.279021
+              VAR =      0.332064
+               SD =       0.57625
+                R =      0.289194
+            SHIFT =      0.909938
+              VOV =      0.232554
+              FOM =        0.2999
+THE LARGEST SCORE =       2.79012 and it happened at 18th event
+    Affected Mean =      0.327311 and its ratio to original is 1.17307
+     Affected VAR =      0.446814 and its ratio to original is 1.34557
+       Affected R =      0.283205 and its ratio to original is 0.979292
+   Affected SHIFT =       0.93282 and its ratio to original is 1.02515
+     Affected FOM =      0.281341 and its ratio to original is 0.938118
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.289194
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+59     6.92641e+06 [sigma: 488435 | error: 0.411186 | coeff: 0.411186 | eff: 1 | fom: 0.144258 | r2int: 0.164101 | r2eff: 0 | hits: 34 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.203718
+              VAR =      0.238569
+               SD =      0.488435
+                R =      0.411186
+            SHIFT =       0.68768
+              VOV =      0.271716
+              FOM =      0.152084
+THE LARGEST SCORE =       1.99122 and it happened at 0th event
+    Affected Mean =      0.254789 and its ratio to original is 1.2507
+     Affected VAR =      0.322843 and its ratio to original is 1.35325
+       Affected R =      0.376947 and its ratio to original is 0.91673
+   Affected SHIFT =      0.671753 and its ratio to original is 0.976839
+     Affected FOM =      0.152084 and its ratio to original is 1
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.411186
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+60     3.69542e+06 [sigma: 320847 | error: 0.513651 | coeff: 0.513651 | eff: 1 | fom: 0.0924441 | r2int: 0.256299 | r2eff: 0 | hits: 35 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.105584
+              VAR =      0.102943
+               SD =      0.320847
+                R =      0.513651
+            SHIFT =      0.809274
+              VOV =      0.830397
+              FOM =       0.09716
+THE LARGEST SCORE =       1.90652 and it happened at 10th event
+    Affected Mean =       0.15561 and its ratio to original is 1.4738
+     Affected VAR =      0.190095 and its ratio to original is 1.84661
+       Affected R =       0.46698 and its ratio to original is 0.909139
+   Affected SHIFT =      0.779558 and its ratio to original is 0.963281
+     Affected FOM =      0.096394 and its ratio to original is 0.992116
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.513651
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+61     2.58518e+07 [sigma: 801136 | error: 0.25176 | coeff: 0.25176 | eff: 1 | fom: 0.384807 | r2int: 0.0624227 | r2eff: 0 | hits: 66 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.391695
+              VAR =      0.641818
+               SD =      0.801136
+                R =       0.25176
+            SHIFT =      0.857833
+              VOV =     0.0783325
+              FOM =       0.39621
+THE LARGEST SCORE =       2.87162 and it happened at 42th event
+    Affected Mean =      0.428708 and its ratio to original is 1.0945
+     Affected VAR =      0.723885 and its ratio to original is 1.12787
+       Affected R =      0.242457 and its ratio to original is 0.96305
+   Affected SHIFT =      0.851733 and its ratio to original is 0.99289
+     Affected FOM =       0.39423 and its ratio to original is 0.995002
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.25176
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+62     1.67685e+07 [sigma: 561644 | error: 0.297701 | coeff: 0.297701 | eff: 1 | fom: 0.275205 | r2int: 0.087504 | r2eff: 0 | hits: 79 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.21226
+              VAR =      0.315444
+               SD =      0.561644
+                R =      0.297701
+            SHIFT =       1.08752
+              VOV =      0.220907
+              FOM =       0.28515
+THE LARGEST SCORE =        3.1347 and it happened at 62th event
+    Affected Mean =       0.24879 and its ratio to original is 1.1721
+     Affected VAR =      0.418209 and its ratio to original is 1.32578
+       Affected R =      0.290616 and its ratio to original is 0.976199
+   Affected SHIFT =       1.12888 and its ratio to original is 1.03803
+     Affected FOM =      0.281171 and its ratio to original is 0.986045
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.297701
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+63     1.67961e+07 [sigma: 496362 | error: 0.247252 | coeff: 0.247252 | eff: 1 | fom: 0.398967 | r2int: 0.0602602 | r2eff: 0 | hits: 70 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.239944
+              VAR =      0.246375
+               SD =      0.496362
+                R =      0.247252
+            SHIFT =      0.664601
+              VOV =      0.121921
+              FOM =      0.412863
+THE LARGEST SCORE =       2.33957 and it happened at 48th event
+    Affected Mean =      0.269516 and its ratio to original is 1.12325
+     Affected VAR =      0.304947 and its ratio to original is 1.23773
+       Affected R =      0.243163 and its ratio to original is 0.983463
+   Affected SHIFT =      0.699367 and its ratio to original is 1.05231
+     Affected FOM =      0.409043 and its ratio to original is 0.990748
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.247252
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+64     2.72154e+06 [sigma: 158662 | error: 0.3449 | coeff: 0.3449 | eff: 1 | fom: 0.205035 | r2int: 0.115558 | r2eff: 0 | hits: 35 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =     0.0777582
+              VAR =     0.0251738
+               SD =      0.158662
+                R =        0.3449
+            SHIFT =      0.291062
+              VOV =      0.498899
+              FOM =      0.232608
+THE LARGEST SCORE =      0.860583 and it happened at 3th event
+    Affected Mean =     0.0995034 and its ratio to original is 1.27965
+     Affected VAR =     0.0414772 and its ratio to original is 1.64763
+       Affected R =      0.341127 and its ratio to original is 0.989058
+   Affected SHIFT =      0.300551 and its ratio to original is 1.0326
+     Affected FOM =      0.231519 and its ratio to original is 0.995318
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.3449
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+65     8.63838e+06 [sigma: 500180 | error: 0.317143 | coeff: 0.317143 | eff: 1 | fom: 0.242497 | r2int: 0.0972269 | r2eff: 0 | hits: 30 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.287946
+              VAR =       0.25018
+               SD =       0.50018
+                R =      0.317143
+            SHIFT =      0.450478
+              VOV =      0.156394
+              FOM =      0.248435
+THE LARGEST SCORE =       1.92258 and it happened at 12th event
+    Affected Mean =      0.340676 and its ratio to original is 1.18312
+     Affected VAR =      0.328035 and its ratio to original is 1.3112
+       Affected R =      0.301952 and its ratio to original is 0.952101
+   Affected SHIFT =       0.47047 and its ratio to original is 1.04438
+     Affected FOM =      0.239287 and its ratio to original is 0.963177
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.317143
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+66     1.27313e+07 [sigma: 503439 | error: 0.313865 | coeff: 0.313865 | eff: 1 | fom: 0.247588 | r2int: 0.0969478 | r2eff: 0 | hits: 63 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.202085
+              VAR =      0.253451
+               SD =      0.503439
+                R =      0.313865
+            SHIFT =      0.938368
+              VOV =      0.258726
+              FOM =      0.254925
+THE LARGEST SCORE =       2.83978 and it happened at 51th event
+    Affected Mean =      0.243299 and its ratio to original is 1.20394
+     Affected VAR =      0.358138 and its ratio to original is 1.41304
+       Affected R =      0.307465 and its ratio to original is 0.979607
+   Affected SHIFT =      0.993071 and its ratio to original is 1.0583
+     Affected FOM =      0.254797 and its ratio to original is 0.999498
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.313865
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 2 / 8 Convergence Test.
+
+67     2.16204e+07 [sigma: 664161 | error: 0.239924 | coeff: 0.239924 | eff: 1 | fom: 0.423709 | r2int: 0.05662 | r2eff: 0 | hits: 61 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.354433
+              VAR =       0.44111
+               SD =      0.664161
+                R =      0.239924
+            SHIFT =       0.63897
+              VOV =     0.0717931
+              FOM =       0.46524
+THE LARGEST SCORE =       2.35659 and it happened at 28th event
+    Affected Mean =      0.386726 and its ratio to original is 1.09111
+     Affected VAR =      0.498534 and its ratio to original is 1.13018
+       Affected R =      0.231872 and its ratio to original is 0.966438
+   Affected SHIFT =       0.63839 and its ratio to original is 0.999092
+     Affected FOM =      0.456559 and its ratio to original is 0.98134
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.239924
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+68     1.87132e+07 [sigma: 687048 | error: 0.274747 | coeff: 0.274747 | eff: 1 | fom: 0.323111 | r2int: 0.0741378 | r2eff: 0 | hits: 56 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.334165
+              VAR =      0.472035
+               SD =      0.687048
+                R =      0.274747
+            SHIFT =      0.934581
+              VOV =      0.152458
+              FOM =      0.334196
+THE LARGEST SCORE =       3.04958 and it happened at 5th event
+    Affected Mean =      0.381804 and its ratio to original is 1.14256
+     Affected VAR =      0.592966 and its ratio to original is 1.25619
+       Affected R =      0.267139 and its ratio to original is 0.97231
+   Affected SHIFT =      0.956826 and its ratio to original is 1.0238
+     Affected FOM =      0.328478 and its ratio to original is 0.982891
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.274747
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+69     6.66366e+06 [sigma: 471644 | error: 0.360901 | coeff: 0.360901 | eff: 1 | fom: 0.187258 | r2int: 0.12524 | r2eff: 0 | hits: 26 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.256295
+              VAR =      0.222448
+               SD =      0.471644
+                R =      0.360901
+            SHIFT =       0.55659
+              VOV =      0.322715
+              FOM =      0.203541
+THE LARGEST SCORE =       2.05645 and it happened at 10th event
+    Affected Mean =      0.322967 and its ratio to original is 1.26014
+     Affected VAR =      0.333913 and its ratio to original is 1.50108
+       Affected R =      0.344331 and its ratio to original is 0.954088
+   Affected SHIFT =      0.583831 and its ratio to original is 1.04894
+     Affected FOM =      0.202842 and its ratio to original is 0.996565
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.360901
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+70     2.85861e+06 [sigma: 229283 | error: 0.408982 | coeff: 0.408982 | eff: 1 | fom: 0.145817 | r2int: 0.160833 | r2eff: 0 | hits: 26 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.109947
+              VAR =     0.0525707
+               SD =      0.229283
+                R =      0.408982
+            SHIFT =      0.414216
+              VOV =      0.646925
+              FOM =      0.164335
+THE LARGEST SCORE =       1.15211 and it happened at 25th event
+    Affected Mean =      0.148545 and its ratio to original is 1.35107
+     Affected VAR =     0.0907752 and its ratio to original is 1.72673
+       Affected R =       0.39034 and its ratio to original is 0.954419
+   Affected SHIFT =      0.405845 and its ratio to original is 0.97979
+     Affected FOM =      0.164154 and its ratio to original is 0.998902
+MEAN distribution is not RANDOM
+r does not follow 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.408982
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 1 / 8 Convergence Test.
+
+71     5.82054e+06 [sigma: 338766 | error: 0.35878 | coeff: 0.35878 | eff: 1 | fom: 0.189478 | r2int: 0.125336 | r2eff: 0 | hits: 38 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.153172
+              VAR =      0.114762
+               SD =      0.338766
+                R =       0.35878
+            SHIFT =       0.57232
+              VOV =      0.404914
+              FOM =       0.20236
+THE LARGEST SCORE =       1.80603 and it happened at 23th event
+    Affected Mean =      0.195553 and its ratio to original is 1.27669
+     Affected VAR =      0.181792 and its ratio to original is 1.58408
+       Affected R =      0.349133 and its ratio to original is 0.973111
+   Affected SHIFT =      0.608329 and its ratio to original is 1.06292
+     Affected FOM =      0.200222 and its ratio to original is 0.989433
+MEAN distribution is  RANDOM
+r does not follow 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.35878
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 2 / 8 Convergence Test.
+
+72     3.64048e+06 [sigma: 352295 | error: 0.521131 | coeff: 0.521131 | eff: 1 | fom: 0.0898096 | r2int: 0.262212 | r2eff: 0 | hits: 29 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.125534
+              VAR =      0.124112
+               SD =      0.352295
+                R =      0.521131
+            SHIFT =      0.773123
+              VOV =      0.784096
+              FOM =     0.0994381
+THE LARGEST SCORE =       1.89842 and it happened at 14th event
+    Affected Mean =       0.18463 and its ratio to original is 1.47076
+     Affected VAR =      0.224602 and its ratio to original is 1.80968
+       Affected R =      0.468645 and its ratio to original is 0.899286
+   Affected SHIFT =      0.740324 and its ratio to original is 0.957577
+     Affected FOM =     0.0931729 and its ratio to original is 0.936994
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.521131
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+73     2.84759e+06 [sigma: 250164 | error: 0.456489 | coeff: 0.456489 | eff: 1 | fom: 0.117046 | r2int: 0.200664 | r2eff: 0 | hits: 27 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.105466
+              VAR =     0.0625822
+               SD =      0.250164
+                R =      0.456489
+            SHIFT =      0.493737
+              VOV =      0.712153
+              FOM =      0.133823
+THE LARGEST SCORE =       1.29176 and it happened at 8th event
+    Affected Mean =      0.147834 and its ratio to original is 1.40172
+     Affected VAR =      0.110525 and its ratio to original is 1.76607
+       Affected R =      0.424988 and its ratio to original is 0.930994
+   Affected SHIFT =      0.477687 and its ratio to original is 0.967493
+     Affected FOM =       0.12977 and its ratio to original is 0.969713
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.456489
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+74     4.15345e+06 [sigma: 631447 | error: 0.54815 | coeff: 0.54815 | eff: 1 | fom: 0.081174 | r2int: 0.277356 | r2eff: 0 | hits: 13 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.319496
+              VAR =      0.398725
+               SD =      0.631447
+                R =       0.54815
+            SHIFT =       0.52838
+              VOV =      0.306153
+              FOM =     0.0839802
+THE LARGEST SCORE =       1.96132 and it happened at 12th event
+    Affected Mean =      0.436769 and its ratio to original is 1.36706
+     Affected VAR =      0.560596 and its ratio to original is 1.40597
+       Affected R =      0.458151 and its ratio to original is 0.835813
+   Affected SHIFT =      0.466134 and its ratio to original is 0.882196
+     Affected FOM =     0.0736476 and its ratio to original is 0.876964
+Number of events of this run is too small to do convergence tests.
+75     1.56544e+07 [sigma: 282606 | error: 0.196933 | coeff: 0.196933 | eff: 1 | fom: 0.628894 | r2int: 0.0384568 | r2eff: 0 | hits: 119 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.131549
+              VAR =     0.0798661
+               SD =      0.282606
+                R =      0.196933
+            SHIFT =      0.450988
+              VOV =      0.128158
+              FOM =      0.635873
+THE LARGEST SCORE =       1.90349 and it happened at 52th event
+    Affected Mean =      0.146315 and its ratio to original is 1.11225
+     Affected VAR =       0.10536 and its ratio to original is 1.3192
+       Affected R =      0.202515 and its ratio to original is 1.02834
+   Affected SHIFT =      0.537054 and its ratio to original is 1.19084
+     Affected FOM =      0.613482 and its ratio to original is 0.964787
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.196933
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+76     3.18931e+07 [sigma: 324603 | error: 0.136929 | coeff: 0.136929 | eff: 1 | fom: 1.30085 | r2int: 0.0186459 | r2eff: 0 | hits: 181 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.176205
+              VAR =      0.105367
+               SD =      0.324603
+                R =      0.136929
+            SHIFT =      0.408485
+              VOV =     0.0500437
+              FOM =        1.3347
+THE LARGEST SCORE =       1.85652 and it happened at 98th event
+    Affected Mean =      0.185438 and its ratio to original is 1.0524
+     Affected VAR =      0.120299 and its ratio to original is 1.14171
+       Affected R =      0.138643 and its ratio to original is 1.01252
+   Affected SHIFT =      0.450388 and its ratio to original is 1.10258
+     Affected FOM =        1.3317 and its ratio to original is 0.997753
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.136929
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 5 / 8 Convergence Test.
+
+77     3.88482e+07 [sigma: 400362 | error: 0.141306 | coeff: 0.141306 | eff: 1 | fom: 1.2215 | r2int: 0.0198612 | r2eff: 0 | hits: 188 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.206639
+              VAR =      0.160289
+               SD =      0.400362
+                R =      0.141306
+            SHIFT =      0.498892
+              VOV =     0.0446762
+              FOM =       1.23658
+THE LARGEST SCORE =       1.95957 and it happened at 165th event
+    Affected Mean =      0.215914 and its ratio to original is 1.04488
+     Affected VAR =      0.175695 and its ratio to original is 1.09611
+       Affected R =      0.141211 and its ratio to original is 0.999326
+   Affected SHIFT =      0.520003 and its ratio to original is 1.04232
+     Affected FOM =       1.23293 and its ratio to original is 0.997046
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.141306
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 5 / 8 Convergence Test.
+
+78     2.49092e+07 [sigma: 351943 | error: 0.17872 | coeff: 0.17872 | eff: 1 | fom: 0.763608 | r2int: 0.0317412 | r2eff: 0 | hits: 160 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.155682
+              VAR =      0.123864
+               SD =      0.351943
+                R =       0.17872
+            SHIFT =      0.548015
+              VOV =      0.078754
+              FOM =      0.780746
+THE LARGEST SCORE =       2.10931 and it happened at 131th event
+    Affected Mean =      0.167817 and its ratio to original is 1.07794
+     Affected VAR =      0.146795 and its ratio to original is 1.18514
+       Affected R =      0.179932 and its ratio to original is 1.00678
+   Affected SHIFT =      0.599185 and its ratio to original is 1.09337
+     Affected FOM =      0.776486 and its ratio to original is 0.994544
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.17872
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+79     1.96499e+07 [sigma: 351972 | error: 0.201063 | coeff: 0.201063 | eff: 1 | fom: 0.603326 | r2int: 0.0401054 | r2eff: 0 | hits: 126 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.155952
+              VAR =      0.123884
+               SD =      0.351972
+                R =      0.201063
+            SHIFT =      0.620461
+              VOV =      0.132281
+              FOM =      0.612742
+THE LARGEST SCORE =       2.11908 and it happened at 27th event
+    Affected Mean =       0.17141 and its ratio to original is 1.09912
+     Affected VAR =      0.153247 and its ratio to original is 1.23701
+       Affected R =      0.202655 and its ratio to original is 1.00792
+   Affected SHIFT =      0.668981 and its ratio to original is 1.0782
+     Affected FOM =      0.610775 and its ratio to original is 0.99679
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.201063
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 5 / 8 Convergence Test.
+
+80     3.22663e+07 [sigma: 348921 | error: 0.146685 | coeff: 0.146685 | eff: 1 | fom: 1.13355 | r2int: 0.0213997 | r2eff: 0 | hits: 184 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.17536
+              VAR =      0.121746
+               SD =      0.348921
+                R =      0.146685
+            SHIFT =      0.502628
+              VOV =     0.0648616
+              FOM =       1.14755
+THE LARGEST SCORE =       2.13638 and it happened at 87th event
+    Affected Mean =       0.18596 and its ratio to original is 1.06045
+     Affected VAR =      0.141871 and its ratio to original is 1.16531
+       Affected R =      0.148916 and its ratio to original is 1.01521
+   Affected SHIFT =      0.556842 and its ratio to original is 1.10786
+     Affected FOM =       1.13995 and its ratio to original is 0.993377
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.146685
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+81     4.3778e+08 [sigma: 1.14244e+06 | error: 0.0445168 | coeff: 0.0445168 | eff: 1 | fom: 12.3075 | r2int: 0.00197494 | r2eff: 0 | hits: 291 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =        1.5044
+              VAR =       1.30517
+               SD =       1.14244
+                R =     0.0445168
+            SHIFT =    -0.0486702
+              VOV =    0.00467958
+              FOM =       12.5337
+THE LARGEST SCORE =       6.45049 and it happened at 273th event
+    Affected Mean =       1.52134 and its ratio to original is 1.01126
+     Affected VAR =       1.38446 and its ratio to original is 1.06075
+       Affected R =      0.045261 and its ratio to original is 1.01672
+   Affected SHIFT =     0.0786072 and its ratio to original is -1.6151
+     Affected FOM =       12.5088 and its ratio to original is 0.998017
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0445168
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+82     3.91134e+08 [sigma: 1.14835e+06 | error: 0.0499112 | coeff: 0.0499112 | eff: 1 | fom: 9.79084 | r2int: 0.00248251 | r2eff: 0 | hits: 289 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =        1.3534
+              VAR =       1.31871
+               SD =       1.14835
+                R =     0.0499112
+            SHIFT =    -0.0466085
+              VOV =   0.000517643
+              FOM =       10.0331
+THE LARGEST SCORE =        3.3788 and it happened at 203th event
+    Affected Mean =       1.36039 and its ratio to original is 1.00516
+     Affected VAR =       1.32829 and its ratio to original is 1.00727
+       Affected R =     0.0497491 and its ratio to original is 0.996751
+   Affected SHIFT =    -0.0457682 and its ratio to original is 0.981971
+     Affected FOM =       10.0306 and its ratio to original is 0.99975
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0499112
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 7 / 8 Convergence Test.
+
+83     4.97599e+08 [sigma: 1.11232e+06 | error: 0.0387822 | coeff: 0.0387822 | eff: 1 | fom: 16.2163 | r2int: 0.00149906 | r2eff: 0 | hits: 301 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       1.65315
+              VAR =       1.23725
+               SD =       1.11232
+                R =     0.0387822
+            SHIFT =     -0.340948
+              VOV =     0.0018855
+              FOM =       16.4693
+THE LARGEST SCORE =       3.67431 and it happened at 102th event
+    Affected Mean =       1.65984 and its ratio to original is 1.00405
+     Affected VAR =       1.24667 and its ratio to original is 1.00761
+       Affected R =     0.0387083 and its ratio to original is 0.998094
+   Affected SHIFT =     -0.336293 and its ratio to original is 0.986347
+     Affected FOM =       16.2202 and its ratio to original is 0.984874
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0387822
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+84     2.90277e+07 [sigma: 384688 | error: 0.167632 | coeff: 0.167632 | eff: 1 | fom: 0.867968 | r2int: 0.0279248 | r2eff: 0 | hits: 160 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.181423
+              VAR =      0.147985
+               SD =      0.384688
+                R =      0.167632
+            SHIFT =        0.5425
+              VOV =      0.063179
+              FOM =      0.890335
+THE LARGEST SCORE =       1.92576 and it happened at 159th event
+    Affected Mean =      0.192258 and its ratio to original is 1.05972
+     Affected VAR =      0.165959 and its ratio to original is 1.12146
+       Affected R =      0.166995 and its ratio to original is 0.996203
+   Affected SHIFT =      0.563905 and its ratio to original is 1.03946
+     Affected FOM =       0.88989 and its ratio to original is 0.9995
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.167632
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+85     2.61832e+07 [sigma: 360525 | error: 0.177405 | coeff: 0.177405 | eff: 1 | fom: 0.774968 | r2int: 0.031283 | r2eff: 0 | hits: 166 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.15773
+              VAR =      0.129978
+               SD =      0.360525
+                R =      0.177405
+            SHIFT =      0.650868
+              VOV =       0.10384
+              FOM =      0.784536
+THE LARGEST SCORE =        2.1765 and it happened at 7th event
+    Affected Mean =      0.169819 and its ratio to original is 1.07664
+     Affected VAR =      0.153599 and its ratio to original is 1.18173
+       Affected R =      0.178587 and its ratio to original is 1.00666
+   Affected SHIFT =      0.689819 and its ratio to original is 1.05984
+     Affected FOM =      0.771581 and its ratio to original is 0.983487
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.177405
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 2 / 8 Convergence Test.
+
+86     3.8881e+08 [sigma: 1.17142e+06 | error: 0.0520097 | coeff: 0.0520097 | eff: 1 | fom: 9.01671 | r2int: 0.00269593 | r2eff: 0 | hits: 298 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       1.30473
+              VAR =       1.37223
+               SD =       1.17142
+                R =     0.0520097
+            SHIFT =     0.0131087
+              VOV =   0.000600704
+              FOM =       9.11228
+THE LARGEST SCORE =       3.75629 and it happened at 174th event
+    Affected Mean =       1.31293 and its ratio to original is 1.00628
+     Affected VAR =       1.38773 and its ratio to original is 1.01129
+       Affected R =     0.0518889 and its ratio to original is 0.997678
+   Affected SHIFT =     0.0184162 and its ratio to original is 1.40489
+     Affected FOM =       9.07648 and its ratio to original is 0.996072
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0520097
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 7 / 8 Convergence Test.
+
+87     3.3855e+08 [sigma: 1.15465e+06 | error: 0.0600494 | coeff: 0.0600494 | eff: 1 | fom: 6.76393 | r2int: 0.00359429 | r2eff: 0 | hits: 310 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =        1.0921
+              VAR =       1.33322
+               SD =       1.15465
+                R =     0.0600494
+            SHIFT =      0.206533
+              VOV =   0.000812734
+              FOM =       6.85421
+THE LARGEST SCORE =       3.19944 and it happened at 82th event
+    Affected Mean =       1.09887 and its ratio to original is 1.0062
+     Affected VAR =        1.3432 and its ratio to original is 1.00748
+       Affected R =     0.0598056 and its ratio to original is 0.995941
+   Affected SHIFT =       0.20541 and its ratio to original is 0.99456
+     Affected FOM =       6.85082 and its ratio to original is 0.999506
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0600494
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+88     3.43081e+08 [sigma: 1.16012e+06 | error: 0.0563804 | coeff: 0.0563804 | eff: 1 | fom: 7.67289 | r2int: 0.00316732 | r2eff: 0 | hits: 278 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =        1.2341
+              VAR =       1.34587
+               SD =       1.16012
+                R =     0.0563804
+            SHIFT =     0.0734687
+              VOV =   0.000561461
+              FOM =       7.96831
+THE LARGEST SCORE =       3.35921 and it happened at 261th event
+    Affected Mean =       1.24172 and its ratio to original is 1.00617
+     Affected VAR =       1.35722 and its ratio to original is 1.00843
+       Affected R =     0.0561693 and its ratio to original is 0.996256
+   Affected SHIFT =     0.0738813 and its ratio to original is 1.00562
+     Affected FOM =       7.95823 and its ratio to original is 0.998735
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0563804
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+89     2.53348e+07 [sigma: 364085 | error: 0.182347 | coeff: 0.182347 | eff: 1 | fom: 0.733535 | r2int: 0.0330437 | r2eff: 0 | hits: 161 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.157359
+              VAR =      0.132558
+               SD =      0.364085
+                R =      0.182347
+            SHIFT =      0.588896
+              VOV =      0.079239
+              FOM =      0.768983
+THE LARGEST SCORE =       1.96803 and it happened at 116th event
+    Affected Mean =      0.168536 and its ratio to original is 1.07103
+     Affected VAR =      0.151972 and its ratio to original is 1.14646
+       Affected R =      0.181732 and its ratio to original is 0.99663
+   Affected SHIFT =      0.614389 and its ratio to original is 1.04329
+     Affected FOM =      0.766436 and its ratio to original is 0.996687
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.182347
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+90     2.53104e+07 [sigma: 331797 | error: 0.172423 | coeff: 0.172423 | eff: 1 | fom: 0.820398 | r2int: 0.0295579 | r2eff: 0 | hits: 173 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.146303
+              VAR =      0.110089
+               SD =      0.331797
+                R =      0.172423
+            SHIFT =      0.530201
+              VOV =     0.0754582
+              FOM =       0.83527
+THE LARGEST SCORE =       1.87031 and it happened at 25th event
+    Affected Mean =      0.156211 and its ratio to original is 1.06772
+     Affected VAR =      0.126534 and its ratio to original is 1.14938
+       Affected R =      0.172631 and its ratio to original is 1.0012
+   Affected SHIFT =      0.560227 and its ratio to original is 1.05663
+     Affected FOM =      0.830321 and its ratio to original is 0.994076
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.172423
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+91     5.0133e+08 [sigma: 1.10281e+06 | error: 0.0387935 | coeff: 0.0387935 | eff: 1 | fom: 16.2068 | r2int: 0.0015001 | r2eff: 0 | hits: 311 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       1.61199
+              VAR =        1.2162
+               SD =       1.10281
+                R =     0.0387935
+            SHIFT =     -0.302157
+              VOV =    0.00157649
+              FOM =       16.6871
+THE LARGEST SCORE =       3.26382 and it happened at 247th event
+    Affected Mean =       1.61729 and its ratio to original is 1.00328
+     Affected VAR =       1.22103 and its ratio to original is 1.00398
+       Affected R =     0.0386812 and its ratio to original is 0.997104
+   Affected SHIFT =     -0.301997 and its ratio to original is 0.99947
+     Affected FOM =       16.6328 and its ratio to original is 0.996746
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0387935
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 5 / 8 Convergence Test.
+
+92     3.85456e+08 [sigma: 1.17197e+06 | error: 0.0513291 | coeff: 0.0513291 | eff: 1 | fom: 9.25739 | r2int: 0.00262543 | r2eff: 0 | hits: 285 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       1.35248
+              VAR =       1.37351
+               SD =       1.17197
+                R =     0.0513291
+            SHIFT =    -0.0287832
+              VOV =   0.000648075
+              FOM =        9.4252
+THE LARGEST SCORE =       3.70183 and it happened at 248th event
+    Affected Mean =       1.36069 and its ratio to original is 1.00607
+     Affected VAR =       1.38799 and its ratio to original is 1.01054
+       Affected R =     0.0511977 and its ratio to original is 0.99744
+   Affected SHIFT =    -0.0243294 and its ratio to original is 0.845264
+     Affected FOM =       9.39487 and its ratio to original is 0.996782
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0513291
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+93     4.87319e+08 [sigma: 1.08282e+06 | error: 0.0378393 | coeff: 0.0378393 | eff: 1 | fom: 17.0345 | r2int: 0.00142687 | r2eff: 0 | hits: 290 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       1.68041
+              VAR =        1.1725
+               SD =       1.08282
+                R =     0.0378393
+            SHIFT =     -0.363538
+              VOV =    0.00217783
+              FOM =        17.339
+THE LARGEST SCORE =       3.27122 and it happened at 244th event
+    Affected Mean =       1.68588 and its ratio to original is 1.00325
+     Affected VAR =       1.17716 and its ratio to original is 1.00397
+       Affected R =     0.0377263 and its ratio to original is 0.997016
+   Affected SHIFT =     -0.363153 and its ratio to original is 0.998939
+     Affected FOM =       17.2833 and its ratio to original is 0.996783
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0378393
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+94     2.27417e+07 [sigma: 301838 | error: 0.16092 | coeff: 0.16092 | eff: 1 | fom: 0.941878 | r2int: 0.0257192 | r2eff: 0 | hits: 147 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.154705
+              VAR =     0.0911063
+               SD =      0.301838
+                R =       0.16092
+            SHIFT =      0.528436
+              VOV =      0.124013
+              FOM =      0.963258
+THE LARGEST SCORE =       1.98708 and it happened at 119th event
+    Affected Mean =      0.167086 and its ratio to original is 1.08003
+     Affected VAR =      0.113173 and its ratio to original is 1.24221
+       Affected R =      0.165501 and its ratio to original is 1.02847
+   Affected SHIFT =      0.587729 and its ratio to original is 1.11221
+     Affected FOM =      0.956103 and its ratio to original is 0.992572
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.16092
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 2 / 8 Convergence Test.
+
+95     2.57622e+07 [sigma: 459493 | error: 0.200208 | coeff: 0.200208 | eff: 1 | fom: 0.608488 | r2int: 0.0397652 | r2eff: 0 | hits: 126 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.204462
+              VAR =      0.211134
+               SD =      0.459493
+                R =      0.200208
+            SHIFT =      0.640534
+              VOV =     0.0757939
+              FOM =      0.622922
+THE LARGEST SCORE =       2.09518 and it happened at 66th event
+    Affected Mean =      0.219349 and its ratio to original is 1.07281
+     Affected VAR =      0.237607 and its ratio to original is 1.12538
+       Affected R =      0.197193 and its ratio to original is 0.984939
+   Affected SHIFT =      0.654518 and its ratio to original is 1.02183
+     Affected FOM =       0.60834 and its ratio to original is 0.976591
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.200208
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+96     2.47164e+07 [sigma: 361465 | error: 0.181486 | coeff: 0.181486 | eff: 1 | fom: 0.740512 | r2int: 0.0327231 | r2eff: 0 | hits: 154 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.160496
+              VAR =      0.130657
+               SD =      0.361465
+                R =      0.181486
+            SHIFT =      0.592867
+              VOV =      0.089989
+              FOM =      0.755436
+THE LARGEST SCORE =       2.10054 and it happened at 58th event
+    Affected Mean =      0.173012 and its ratio to original is 1.07799
+     Affected VAR =      0.154091 and its ratio to original is 1.17935
+       Affected R =      0.182241 and its ratio to original is 1.00416
+   Affected SHIFT =      0.633662 and its ratio to original is 1.06881
+     Affected FOM =      0.750395 and its ratio to original is 0.993327
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.181486
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+97     2.01088e+07 [sigma: 316691 | error: 0.20045 | coeff: 0.20045 | eff: 1 | fom: 0.607019 | r2int: 0.0399324 | r2eff: 0 | hits: 162 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.124128
+              VAR =      0.100293
+               SD =      0.316691
+                R =       0.20045
+            SHIFT =      0.629403
+              VOV =      0.122419
+              FOM =      0.625635
+THE LARGEST SCORE =       2.01257 and it happened at 28th event
+    Affected Mean =      0.135714 and its ratio to original is 1.09334
+     Affected VAR =      0.121552 and its ratio to original is 1.21197
+       Affected R =      0.201217 and its ratio to original is 1.00382
+   Affected SHIFT =      0.668809 and its ratio to original is 1.06261
+     Affected FOM =      0.618791 and its ratio to original is 0.98906
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is NOT less than 0.1. r = 0.20045
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+98     2.2252e+07 [sigma: 322483 | error: 0.186157 | coeff: 0.186157 | eff: 1 | fom: 0.703814 | r2int: 0.0344443 | r2eff: 0 | hits: 165 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.134861
+              VAR =      0.103995
+               SD =      0.322483
+                R =      0.186157
+            SHIFT =      0.646102
+              VOV =      0.122536
+              FOM =      0.712679
+THE LARGEST SCORE =       2.01617 and it happened at 120th event
+    Affected Mean =      0.146194 and its ratio to original is 1.08404
+     Affected VAR =      0.124686 and its ratio to original is 1.19896
+       Affected R =      0.187467 and its ratio to original is 1.00704
+   Affected SHIFT =      0.679586 and its ratio to original is 1.05182
+     Affected FOM =      0.712327 and its ratio to original is 0.999506
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.186157
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 4 / 8 Convergence Test.
+
+99     1.63604e+07 [sigma: 326777 | error: 0.214194 | coeff: 0.214194 | eff: 1 | fom: 0.531622 | r2int: 0.04548 | r2eff: 0 | hits: 115 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.142264
+              VAR =      0.106783
+               SD =      0.326777
+                R =      0.214194
+            SHIFT =      0.565766
+              VOV =      0.135665
+              FOM =      0.545185
+THE LARGEST SCORE =       1.92922 and it happened at 12th event
+    Affected Mean =      0.157669 and its ratio to original is 1.10828
+     Affected VAR =      0.133382 and its ratio to original is 1.24909
+       Affected R =      0.215067 and its ratio to original is 1.00408
+   Affected SHIFT =      0.610512 and its ratio to original is 1.07909
+     Affected FOM =      0.543418 and its ratio to original is 0.996759
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is NOT less than 0.1. r = 0.214194
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+Number of non zero history too small to calculate SLOPE
+This result passes 3 / 8 Convergence Test.
+
+100     2.97717e+08 [sigma: 431253 | error: 0.0350653 | coeff: 0.0350653 | eff: 1 | fom: 19.8364 | r2int: 0.00122747 | r2eff: 0 | hits: 586 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.508049
+              VAR =      0.185979
+               SD =      0.431253
+                R =     0.0350653
+            SHIFT =     0.0777435
+              VOV =    0.00272014
+              FOM =        20.017
+THE LARGEST SCORE =       2.63807 and it happened at 124th event
+    Affected Mean =      0.511678 and its ratio to original is 1.00714
+     Affected VAR =      0.193391 and its ratio to original is 1.03985
+       Affected R =     0.0354733 and its ratio to original is 1.01164
+   Affected SHIFT =      0.111767 and its ratio to original is 1.43764
+     Affected FOM =       19.9875 and its ratio to original is 0.998525
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0350653
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 7 / 8 Convergence Test.
+
+101     3.67519e+08 [sigma: 500167 | error: 0.0371212 | coeff: 0.0371212 | eff: 1 | fom: 17.6999 | r2int: 0.00137613 | r2eff: 0 | hits: 744 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.493977
+              VAR =      0.250167
+               SD =      0.500167
+                R =     0.0371212
+            SHIFT =      0.346369
+              VOV =     0.0098712
+              FOM =       17.9052
+THE LARGEST SCORE =       4.35964 and it happened at 709th event
+    Affected Mean =      0.499166 and its ratio to original is 1.0105
+     Affected VAR =      0.269889 and its ratio to original is 1.07884
+       Affected R =     0.0381303 and its ratio to original is 1.02718
+   Affected SHIFT =      0.456503 and its ratio to original is 1.31797
+     Affected FOM =       17.8831 and its ratio to original is 0.998768
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is less than 0.1. r = 0.0371212
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 3 / 8 Convergence Test.
+
+102     3.63374e+08 [sigma: 439193 | error: 0.0330561 | coeff: 0.0330561 | eff: 1 | fom: 22.3209 | r2int: 0.00109125 | r2eff: 0 | hits: 748 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.485794
+              VAR =       0.19289
+               SD =      0.439193
+                R =     0.0330561
+            SHIFT =     0.0891656
+              VOV =    0.00160816
+              FOM =       22.5798
+THE LARGEST SCORE =       2.17425 and it happened at 261th event
+    Affected Mean =      0.488048 and its ratio to original is 1.00464
+     Affected VAR =      0.196438 and its ratio to original is 1.0184
+       Affected R =     0.0331825 and its ratio to original is 1.00382
+   Affected SHIFT =      0.100419 and its ratio to original is 1.12621
+     Affected FOM =       22.5631 and its ratio to original is 0.99926
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0330561
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 7 / 8 Convergence Test.
+
+103     3.44414e+08 [sigma: 464257 | error: 0.0349692 | coeff: 0.0349692 | eff: 1 | fom: 19.9455 | r2int: 0.00122103 | r2eff: 0 | hits: 673 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.511759
+              VAR =      0.215534
+               SD =      0.464257
+                R =     0.0349692
+            SHIFT =       0.19906
+              VOV =    0.00556391
+              FOM =       20.2517
+THE LARGEST SCORE =       2.94934 and it happened at 421th event
+    Affected Mean =      0.515375 and its ratio to original is 1.00707
+     Affected VAR =       0.22403 and its ratio to original is 1.03942
+       Affected R =     0.0353753 and its ratio to original is 1.01161
+   Affected SHIFT =       0.23377 and its ratio to original is 1.17437
+     Affected FOM =       20.2367 and its ratio to original is 0.999258
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is less than 0.1. r = 0.0349692
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 3 / 8 Convergence Test.
+
+104     3.25311e+08 [sigma: 465575 | error: 0.0342884 | coeff: 0.0342884 | eff: 1 | fom: 20.7454 | r2int: 0.00117364 | r2eff: 0 | hits: 574 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.566744
+              VAR =       0.21676
+               SD =      0.465575
+                R =     0.0342884
+            SHIFT =      0.183828
+              VOV =    0.00742248
+              FOM =       20.9344
+THE LARGEST SCORE =        3.0588 and it happened at 456th event
+    Affected Mean =      0.571078 and its ratio to original is 1.00765
+     Affected VAR =      0.227183 and its ratio to original is 1.04809
+       Affected R =     0.0348064 and its ratio to original is 1.01511
+   Affected SHIFT =      0.227837 and its ratio to original is 1.23941
+     Affected FOM =       20.8932 and its ratio to original is 0.998035
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is NOT monotonically decrease 
+r is less than 0.1. r = 0.0342884
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+SLOPE is large enough
+This result passes 4 / 8 Convergence Test.
+
+105     3.42323e+08 [sigma: 445593 | error: 0.0343652 | coeff: 0.0343652 | eff: 1 | fom: 20.6528 | r2int: 0.00117927 | r2eff: 0 | hits: 697 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.491137
+              VAR =      0.198553
+               SD =      0.445593
+                R =     0.0343652
+            SHIFT =      0.148558
+              VOV =    0.00396704
+              FOM =       20.8357
+THE LARGEST SCORE =       3.06975 and it happened at 33th event
+    Affected Mean =      0.494832 and its ratio to original is 1.00752
+     Affected VAR =      0.207794 and its ratio to original is 1.04654
+       Affected R =     0.0348684 and its ratio to original is 1.01464
+   Affected SHIFT =      0.195321 and its ratio to original is 1.31478
+     Affected FOM =       20.7795 and its ratio to original is 0.997301
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0343652
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 6 / 8 Convergence Test.
+
+106     3.75896e+08 [sigma: 451682 | error: 0.035767 | coeff: 0.035767 | eff: 1 | fom: 19.0656 | r2int: 0.00127784 | r2eff: 0 | hits: 886 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.424262
+              VAR =      0.204017
+               SD =      0.451682
+                R =      0.035767
+            SHIFT =      0.184124
+              VOV =    0.00217965
+              FOM =        19.225
+THE LARGEST SCORE =       2.41398 and it happened at 579th event
+    Affected Mean =      0.426505 and its ratio to original is 1.00529
+     Affected VAR =       0.20825 and its ratio to original is 1.02075
+       Affected R =     0.0359258 and its ratio to original is 1.00444
+   Affected SHIFT =      0.198139 and its ratio to original is 1.07612
+     Affected FOM =       19.2014 and its ratio to original is 0.998772
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.035767
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 5 / 8 Convergence Test.
+
+107     3.95331e+08 [sigma: 454263 | error: 0.0351736 | coeff: 0.0351736 | eff: 1 | fom: 19.7144 | r2int: 0.00123586 | r2eff: 0 | hits: 937 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.421911
+              VAR =      0.206355
+               SD =      0.454263
+                R =     0.0351736
+            SHIFT =      0.217032
+              VOV =    0.00288586
+              FOM =       19.9676
+THE LARGEST SCORE =       2.82406 and it happened at 735th event
+    Affected Mean =      0.424472 and its ratio to original is 1.00607
+     Affected VAR =      0.212286 and its ratio to original is 1.02874
+       Affected R =     0.0354414 and its ratio to original is 1.00761
+   Affected SHIFT =      0.241711 and its ratio to original is 1.11371
+     Affected FOM =       19.9676 and its ratio to original is 1
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0351736
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+SLOPE is large enough
+This result passes 5 / 8 Convergence Test.
+
+108     3.65811e+08 [sigma: 478546 | error: 0.0381845 | coeff: 0.0381845 | eff: 1 | fom: 16.7279 | r2int: 0.00145635 | r2eff: 0 | hits: 852 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.429355
+              VAR =      0.229007
+               SD =      0.478546
+                R =     0.0381845
+            SHIFT =      0.311266
+              VOV =    0.00525465
+              FOM =       17.0227
+THE LARGEST SCORE =       2.95633 and it happened at 197th event
+    Affected Mean =      0.432318 and its ratio to original is 1.0069
+     Affected VAR =      0.236224 and its ratio to original is 1.03152
+       Affected R =     0.0384932 and its ratio to original is 1.00808
+   Affected SHIFT =      0.337004 and its ratio to original is 1.08269
+     Affected FOM =       17.0227 and its ratio to original is 1
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0381845
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 6 / 8 Convergence Test.
+
+109     3.63289e+08 [sigma: 440181 | error: 0.0327371 | coeff: 0.0327371 | eff: 1 | fom: 22.758 | r2int: 0.00107025 | r2eff: 0 | hits: 730 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.497656
+              VAR =      0.193759
+               SD =      0.440181
+                R =     0.0327371
+            SHIFT =      0.124529
+              VOV =    0.00321449
+              FOM =       22.9653
+THE LARGEST SCORE =       2.86163 and it happened at 262th event
+    Affected Mean =       0.50089 and its ratio to original is 1.0065
+     Affected VAR =      0.201139 and its ratio to original is 1.03809
+       Affected R =     0.0331167 and its ratio to original is 1.01159
+   Affected SHIFT =      0.159877 and its ratio to original is 1.28385
+     Affected FOM =       22.9033 and its ratio to original is 0.9973
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0327371
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 6 / 8 Convergence Test.
+
+110     3.35705e+08 [sigma: 485258 | error: 0.0382167 | coeff: 0.0382167 | eff: 1 | fom: 16.6997 | r2int: 0.00145843 | r2eff: 0 | hits: 699 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.480265
+              VAR =      0.235476
+               SD =      0.485258
+                R =     0.0382167
+            SHIFT =      0.259035
+              VOV =    0.00590497
+              FOM =       16.8435
+THE LARGEST SCORE =       2.91146 and it happened at 365th event
+    Affected Mean =      0.483738 and its ratio to original is 1.00723
+     Affected VAR =      0.243583 and its ratio to original is 1.03443
+       Affected R =     0.0385624 and its ratio to original is 1.00904
+   Affected SHIFT =      0.286993 and its ratio to original is 1.10793
+     Affected FOM =       16.8435 and its ratio to original is 1
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0382167
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 7 / 8 Convergence Test.
+
+111     3.98014e+08 [sigma: 455955 | error: 0.0345956 | coeff: 0.0345956 | eff: 1 | fom: 20.3786 | r2int: 0.00119554 | r2eff: 0 | hits: 912 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.436419
+              VAR =      0.207895
+               SD =      0.455955
+                R =     0.0345956
+            SHIFT =       0.19243
+              VOV =     0.0024211
+              FOM =       20.5946
+THE LARGEST SCORE =       2.55018 and it happened at 471th event
+    Affected Mean =      0.438734 and its ratio to original is 1.0053
+     Affected VAR =       0.21256 and its ratio to original is 1.02244
+       Affected R =      0.034778 and its ratio to original is 1.00527
+   Affected SHIFT =      0.208863 and its ratio to original is 1.0854
+     Affected FOM =       20.5895 and its ratio to original is 0.999754
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0345956
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 6 / 8 Convergence Test.
+
+112     3.80984e+08 [sigma: 448498 | error: 0.0361501 | coeff: 0.0361501 | eff: 1 | fom: 18.6636 | r2int: 0.00130545 | r2eff: 0 | hits: 943 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.404013
+              VAR =      0.201151
+               SD =      0.448498
+                R =     0.0361501
+            SHIFT =       0.21447
+              VOV =    0.00235608
+              FOM =       18.8708
+THE LARGEST SCORE =       2.16269 and it happened at 101th event
+    Affected Mean =      0.405876 and its ratio to original is 1.00461
+     Affected VAR =      0.204214 and its ratio to original is 1.01523
+       Affected R =     0.0362379 and its ratio to original is 1.00243
+   Affected SHIFT =      0.222346 and its ratio to original is 1.03672
+     Affected FOM =       18.8475 and its ratio to original is 0.998768
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0361501
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 6 / 8 Convergence Test.
+
+113     3.62312e+08 [sigma: 467748 | error: 0.0387948 | coeff: 0.0387948 | eff: 1 | fom: 16.2057 | r2int: 0.00150337 | r2eff: 0 | hits: 903 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.401231
+              VAR =      0.218788
+               SD =      0.467748
+                R =     0.0387948
+            SHIFT =      0.292522
+              VOV =    0.00431756
+              FOM =        16.422
+THE LARGEST SCORE =       2.78938 and it happened at 436th event
+    Affected Mean =      0.403873 and its ratio to original is 1.00658
+     Affected VAR =      0.224855 and its ratio to original is 1.02773
+       Affected R =     0.0390501 and its ratio to original is 1.00658
+   Affected SHIFT =       0.31386 and its ratio to original is 1.07294
+     Affected FOM =        16.422 and its ratio to original is 1
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0387948
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 7 / 8 Convergence Test.
+
+114     3.39033e+08 [sigma: 451218 | error: 0.0362776 | coeff: 0.0362776 | eff: 1 | fom: 18.5327 | r2int: 0.00131429 | r2eff: 0 | hits: 743 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.456303
+              VAR =      0.203598
+               SD =      0.451218
+                R =     0.0362776
+            SHIFT =      0.178718
+              VOV =    0.00348092
+              FOM =       18.7523
+THE LARGEST SCORE =       2.92465 and it happened at 552th event
+    Affected Mean =      0.459621 and its ratio to original is 1.00727
+     Affected VAR =      0.211513 and its ratio to original is 1.03888
+       Affected R =     0.0366845 and its ratio to original is 1.01122
+   Affected SHIFT =      0.214612 and its ratio to original is 1.20084
+     Affected FOM =       18.7476 and its ratio to original is 0.999753
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0362776
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 5 / 8 Convergence Test.
+
+115     3.17948e+08 [sigma: 453096 | error: 0.0369693 | coeff: 0.0369693 | eff: 1 | fom: 17.8457 | r2int: 0.0013647 | r2eff: 0 | hits: 673 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.472434
+              VAR =      0.205296
+               SD =      0.453096
+                R =     0.0369693
+            SHIFT =      0.198663
+              VOV =    0.00563598
+              FOM =       18.1737
+THE LARGEST SCORE =       3.03142 and it happened at 577th event
+    Affected Mean =      0.476231 and its ratio to original is 1.00804
+     Affected VAR =      0.214707 and its ratio to original is 1.04584
+       Affected R =     0.0374779 and its ratio to original is 1.01376
+   Affected SHIFT =      0.241886 and its ratio to original is 1.21757
+     Affected FOM =       18.1692 and its ratio to original is 0.999752
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0369693
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+SLOPE is large enough
+This result passes 6 / 8 Convergence Test.
+
+116     3.76737e+08 [sigma: 442679 | error: 0.0350743 | coeff: 0.0350743 | eff: 1 | fom: 19.8262 | r2int: 0.00122882 | r2eff: 0 | hits: 891 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.422825
+              VAR =      0.195964
+               SD =      0.442679
+                R =     0.0350743
+            SHIFT =      0.201526
+              VOV =    0.00328012
+              FOM =       20.0462
+THE LARGEST SCORE =        2.9621 and it happened at 797th event
+    Affected Mean =      0.425672 and its ratio to original is 1.00673
+     Affected VAR =      0.202973 and its ratio to original is 1.03576
+       Affected R =     0.0354374 and its ratio to original is 1.01035
+   Affected SHIFT =        0.2353 and its ratio to original is 1.16759
+     Affected FOM =       20.0412 and its ratio to original is 0.999753
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0350743
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 4 / 8 Convergence Test.
+
+117     3.95482e+08 [sigma: 448982 | error: 0.0346027 | coeff: 0.0346027 | eff: 1 | fom: 20.3702 | r2int: 0.00119606 | r2eff: 0 | hits: 929 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.425707
+              VAR =      0.201585
+               SD =      0.448982
+                R =     0.0346027
+            SHIFT =      0.195539
+              VOV =    0.00282469
+              FOM =       20.5861
+THE LARGEST SCORE =        3.0142 and it happened at 330th event
+    Affected Mean =       0.42849 and its ratio to original is 1.00654
+     Affected VAR =      0.208573 and its ratio to original is 1.03466
+       Affected R =     0.0349499 and its ratio to original is 1.01003
+   Affected SHIFT =      0.229321 and its ratio to original is 1.17276
+     Affected FOM =       20.5709 and its ratio to original is 0.999261
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0346027
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+SLOPE is large enough
+This result passes 7 / 8 Convergence Test.
+
+118     4.19108e+08 [sigma: 473278 | error: 0.0339528 | coeff: 0.0339528 | eff: 1 | fom: 21.1576 | r2int: 0.00115151 | r2eff: 0 | hits: 904 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.463615
+              VAR =      0.223992
+               SD =      0.473278
+                R =     0.0339528
+            SHIFT =      0.204768
+              VOV =    0.00308889
+              FOM =       21.3713
+THE LARGEST SCORE =       2.89822 and it happened at 18th event
+    Affected Mean =      0.466305 and its ratio to original is 1.0058
+     Affected VAR =      0.230294 and its ratio to original is 1.02813
+       Affected R =     0.0342095 and its ratio to original is 1.00756
+   Affected SHIFT =      0.229533 and its ratio to original is 1.12095
+     Affected FOM =       21.3083 and its ratio to original is 0.997052
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0339528
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 7 / 8 Convergence Test.
+
+119     3.38355e+08 [sigma: 428630 | error: 0.0345771 | coeff: 0.0345771 | eff: 1 | fom: 20.4005 | r2int: 0.00119397 | r2eff: 0 | hits: 745 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.454167
+              VAR =      0.183723
+               SD =       0.42863
+                R =     0.0345771
+            SHIFT =      0.111908
+              VOV =     0.0017301
+              FOM =       20.6881
+THE LARGEST SCORE =       2.31287 and it happened at 358th event
+    Affected Mean =      0.456659 and its ratio to original is 1.00549
+     Affected VAR =      0.188108 and its ratio to original is 1.02386
+       Affected R =      0.034773 and its ratio to original is 1.00567
+   Affected SHIFT =        0.1283 and its ratio to original is 1.14648
+     Affected FOM =       20.6421 and its ratio to original is 0.997779
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0345771
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is RANDOM
+SLOPE is large enough
+This result passes 7 / 8 Convergence Test.
+
+120     3.01261e+08 [sigma: 429159 | error: 0.0346313 | coeff: 0.0346313 | eff: 1 | fom: 20.3366 | r2int: 0.0011973 | r2eff: 0 | hits: 591 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.509748
+              VAR =      0.184177
+               SD =      0.429159
+                R =     0.0346313
+            SHIFT =      0.065323
+              VOV =    0.00183956
+              FOM =       20.6335
+THE LARGEST SCORE =       2.21466 and it happened at 100th event
+    Affected Mean =      0.512628 and its ratio to original is 1.00565
+     Affected VAR =      0.188776 and its ratio to original is 1.02497
+       Affected R =     0.0348345 and its ratio to original is 1.00587
+   Affected SHIFT =     0.0814836 and its ratio to original is 1.24739
+     Affected FOM =       20.5218 and its ratio to original is 0.994585
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0346313
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 5 / 8 Convergence Test.
+
+121     3.63497e+08 [sigma: 467754 | error: 0.0344088 | coeff: 0.0344088 | eff: 1 | fom: 20.6005 | r2int: 0.00118231 | r2eff: 0 | hits: 715 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.508387
+              VAR =      0.218794
+               SD =      0.467754
+                R =     0.0344088
+            SHIFT =      0.181256
+              VOV =    0.00434947
+              FOM =       20.8651
+THE LARGEST SCORE =       3.00123 and it happened at 3th event
+    Affected Mean =      0.511869 and its ratio to original is 1.00685
+     Affected VAR =      0.227167 and its ratio to original is 1.03827
+       Affected R =     0.0347982 and its ratio to original is 1.01132
+   Affected SHIFT =      0.216737 and its ratio to original is 1.19575
+     Affected FOM =       20.8651 and its ratio to original is 1
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0344088
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 6 / 8 Convergence Test.
+
+122     3.58505e+08 [sigma: 459503 | error: 0.0345114 | coeff: 0.0345114 | eff: 1 | fom: 19.9906 | r2int: 0.00118939 | r2eff: 0 | hits: 725 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =       0.49449
+              VAR =      0.211143
+               SD =      0.459503
+                R =     0.0345114
+            SHIFT =       0.13538
+              VOV =    0.00261113
+              FOM =       20.7207
+THE LARGEST SCORE =       2.44654 and it happened at 69th event
+    Affected Mean =      0.497178 and its ratio to original is 1.00544
+     Affected VAR =      0.216101 and its ratio to original is 1.02348
+       Affected R =     0.0347014 and its ratio to original is 1.00551
+   Affected SHIFT =       0.15177 and its ratio to original is 1.12107
+     Affected FOM =       20.7156 and its ratio to original is 0.999753
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0345114
+VOV follows 1/std::sqrt(N)
+VOV is monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 7 / 8 Convergence Test.
+
+123     3.32571e+08 [sigma: 435873 | error: 0.0353867 | coeff: 0.0353867 | eff: 1 | fom: 19.0139 | r2int: 0.0012505 | r2eff: 0 | hits: 729 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.456201
+              VAR =      0.189985
+               SD =      0.435873
+                R =     0.0353867
+            SHIFT =      0.114234
+              VOV =    0.00173111
+              FOM =       19.7084
+THE LARGEST SCORE =       2.05087 and it happened at 373th event
+    Affected Mean =      0.458386 and its ratio to original is 1.00479
+     Affected VAR =      0.193208 and its ratio to original is 1.01696
+       Affected R =     0.0354912 and its ratio to original is 1.00295
+   Affected SHIFT =      0.123278 and its ratio to original is 1.07917
+     Affected FOM =       19.6987 and its ratio to original is 0.999507
+MEAN distribution is not RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0353867
+VOV follows 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 5 / 8 Convergence Test.
+
+124     3.26075e+08 [sigma: 462285 | error: 0.0353011 | coeff: 0.0353011 | eff: 1 | fom: 19.1062 | r2int: 0.00124416 | r2eff: 0 | hits: 620 ]
+
+G4ConvergenceTester Output Result of NONAME
+       EFFICIENCY =             1
+             MEAN =      0.525928
+              VAR =      0.213708
+               SD =      0.462285
+                R =     0.0353011
+            SHIFT =      0.189805
+              VOV =    0.00659114
+              FOM =       19.2206
+THE LARGEST SCORE =       3.00415 and it happened at 462th event
+    Affected Mean =      0.529919 and its ratio to original is 1.00759
+     Affected VAR =      0.223253 and its ratio to original is 1.04466
+       Affected R =     0.0357802 and its ratio to original is 1.01357
+   Affected SHIFT =      0.230312 and its ratio to original is 1.21341
+     Affected FOM =       19.2206 and its ratio to original is 1
+MEAN distribution is  RANDOM
+r follows 1/std::sqrt(N)
+r is monotonically decrease 
+r is less than 0.1. r = 0.0353011
+VOV does not follow 1/std::sqrt(N)
+VOV is NOT monotonically decrease 
+FOM distribution is not RANDOM
+SLOPE is large enough
+This result passes 5 / 8 Convergence Test.
+
