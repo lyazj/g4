@@ -24,41 +24,63 @@
 // ********************************************************************
 //
 //
-/// \file B1/src/ActionInitialization.cc
-/// \brief Implementation of the B1::ActionInitialization class
+/// \file B1/src/StackingAction.cc
+/// \brief Implementation of the B1::StackingAction class
 
-#include "ActionInitialization.hh"
-#include "PrimaryGeneratorAction.hh"
-#include "RunAction.hh"
-#include "EventAction.hh"
-#include "SteppingAction.hh"
 #include "StackingAction.hh"
+
+#include "G4Track.hh"
+#include "G4Neutron.hh"
 
 namespace B1
 {
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void ActionInitialization::BuildForMaster() const
+G4ClassificationOfNewTrack
+StackingAction::ClassifyNewTrack(const G4Track* track)
 {
-  auto runAction = new RunAction(NULL);
-  SetUserAction(runAction);
+  // Select neutrons only.
+  if(track->GetDefinition() != G4Neutron::Neutron()) return fUrgent;
+
+  // Record time and generation first.
+  G4double globalTime = GetAndRecordGlobalTime(track);
+  G4int generation = GetAndRecordGeneration(track);
+
+  // Either time or generation exceeding triggers a kill.
+  if(fMaxGlobalTime && globalTime > fMaxGlobalTime) return fKill;
+  if(fMaxGeneration && generation > fMaxGeneration) return fKill;
+  return fUrgent;
+}
+
+void StackingAction::ResetRecords()
+{
+  fGenerationMap.clear();
+  fGlobalTimeMap.clear();
+}
+
+G4int StackingAction::GetAndRecordGeneration(const G4Track *track)
+{
+  // Memoization.
+  G4int ID = track->GetTrackID();
+  auto it = fGenerationMap.find(ID);
+  if(it != fGenerationMap.end()) return it->second;
+
+  // Compute generation by adding 1 to the value of its parent.
+  // The parent must have been recorded by an earlier call to this method.
+  G4int parentID = track->GetParentID();
+  G4int generation = 1;
+  if(parentID) generation += fGenerationMap.at(parentID);
+  fGenerationMap.emplace(ID, generation);
+  return generation;
+}
+
+G4double StackingAction::GetAndRecordGlobalTime(const G4Track *track)
+{
+  return fGlobalTimeMap[track->GetTrackID()] = track->GetGlobalTime();
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void ActionInitialization::Build() const
-{
-  SetUserAction(new PrimaryGeneratorAction);
-  auto stackingAction = new StackingAction;
-  SetUserAction(stackingAction);
-  auto runAction = new RunAction(stackingAction);
-  SetUserAction(runAction);
-  auto eventAction = new EventAction(runAction);
-  SetUserAction(eventAction);
-  SetUserAction(new SteppingAction(eventAction));
 }
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-}

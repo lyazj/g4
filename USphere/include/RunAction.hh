@@ -34,10 +34,16 @@
 #include "G4Accumulable.hh"
 #include "globals.hh"
 
+#include <vector>
+
 class G4Run;
+class TFile;
+class TTree;
 
 namespace B1
 {
+
+class StackingAction;
 
 /// Run action class
 ///
@@ -48,7 +54,7 @@ namespace B1
 class RunAction : public G4UserRunAction
 {
   public:
-    RunAction();
+    RunAction(StackingAction *stackingAction);
     ~RunAction() override = default;
 
     void BeginOfRunAction(const G4Run*) override;
@@ -56,9 +62,24 @@ class RunAction : public G4UserRunAction
 
     void AddEdep (G4double edep);
 
+    void FillTree();
+    void SaveTree();
+
   private:
+    StackingAction *fStackingAction;
+
     G4Accumulable<G4double> fEdep = 0.;
     G4Accumulable<G4double> fEdep2 = 0.;
+
+    G4String fFileName = "USphere.root";
+    G4String fTreeName = "tree";
+    TFile *fFile = NULL;
+    TTree *fTree = NULL;
+    std::vector<int> fNeutronGeneration;
+    std::vector<double> fNeutronGlobalTime;
+
+    void InitializeTree();
+    void DestroyTree();
 };
 
 }

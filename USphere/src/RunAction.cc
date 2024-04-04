@@ -28,6 +28,7 @@
 /// \brief Implementation of the B1::RunAction class
 
 #include "RunAction.hh"
+#include "StackingAction.hh"
 #include "PrimaryGeneratorAction.hh"
 #include "DetectorConstruction.hh"
 
@@ -40,12 +41,20 @@
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
 
+#include <TFile.h>
+#include <TTree.h>
+#include <stdexcept>
+#include <vector>
+#include <utility>
+#include <algorithm>
+
 namespace B1
 {
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-RunAction::RunAction()
+RunAction::RunAction(StackingAction *stackingAction)
+  : fStackingAction(stackingAction)
 {
   // add new units for dose
   //
@@ -76,12 +85,15 @@ void RunAction::BeginOfRunAction(const G4Run*)
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->Reset();
 
+  InitializeTree();
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void RunAction::EndOfRunAction(const G4Run* run)
 {
+  DestroyTree();
+
   G4int nofEvents = run->GetNumberOfEvent();
   if (nofEvents == 0) return;
 
@@ -168,6 +180,60 @@ void RunAction::AddEdep(G4double edep)
 {
   fEdep  += edep;
   fEdep2 += edep*edep;
+}
+
+void RunAction::FillTree()
+{
+  // Adapt size.
+  if(fStackingAction->fGenerationMap.size() != fStackingAction->fGlobalTimeMap.size()) {
+    throw std::logic_error("bad stacking records");
+  }
+  fNeutronGeneration.reserve(fStackingAction->fGenerationMap.size());
+  fNeutronGlobalTime.reserve(fStackingAction->fGenerationMap.size());
+
+  // Sort data by generation and ID.
+  std::vector<std::pair<G4int, G4int>> generationAndIDs;
+  generationAndIDs.reserve(fStackingAction->fGenerationMap.size());
+  for(auto [ID, generation] : fStackingAction->fGenerationMap) {
+    generationAndIDs.emplace_back(generation, ID);
+  }
+  sort(generationAndIDs.begin(), generationAndIDs.end());
+
+  // Transcript data.
+  for(auto [generation, ID] : generationAndIDs) {
+    G4double globalTime = fStackingAction->fGlobalTimeMap.at(ID);
+    fNeutronGeneration.push_back(generation);
+    fNeutronGlobalTime.push_back(globalTime / ns);
+  }
+  fTree->Fill();
+
+  // Reset stacking controller.
+  fStackingAction->ResetRecords();
+
+  // Clean up.
+  fNeutronGeneration.clear();
+  fNeutronGlobalTime.clear();
+}
+
+void RunAction::SaveTree()
+{
+  fTree->AutoSave("SaveSelf, Overwrite");
+}
+
+void RunAction::InitializeTree()
+{
+  fFile = new TFile(fFileName, "RECREATE");
+  fTree = new TTree(fTreeName, fTreeName);
+  fTree->Branch("NeutronGeneration", &fNeutronGeneration);
+  fTree->Branch("NeutronGlobalTime", &fNeutronGlobalTime);
+}
+
+void RunAction::DestroyTree()
+{
+  fFile->cd();
+  fTree->Write(fTreeName, fTree->kOverwrite);
+  delete fTree;
+  delete fFile;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

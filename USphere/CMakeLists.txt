@@ -26,6 +26,19 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
 
 #----------------------------------------------------------------------------
+# Setup ROOT include directories and compile definitions
+#
+find_package(ROOT)
+set(ROOT_CC_FLAG_LIST ${ROOT_CC_FLAGS})
+set(ROOT_CXX_FLAG_LIST ${ROOT_CXX_FLAGS})
+separate_arguments(ROOT_CC_FLAG_LIST)
+separate_arguments(ROOT_CXX_FLAG_LIST)
+add_compile_options(${ROOT_CXX_FLAG_LIST})
+add_compile_definitions(${ROOT_DEFINITIONS})
+include_directories(${ROOT_INCLUDE_DIRS})
+link_directories(${ROOT_LIBRARY_DIR})
+
+#----------------------------------------------------------------------------
 # Locate sources and headers for this project
 # NB: headers are included so they will show up in IDEs
 #
@@ -36,4 +49,4 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 # Add the executable, and link it to the Geant4 libraries
 #
 add_executable(USphere USphere.cc ${sources} ${headers})
-target_link_libraries(USphere ${Geant4_LIBRARIES})
+target_link_libraries(USphere ${Geant4_LIBRARIES} ROOT::Tree)

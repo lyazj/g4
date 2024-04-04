@@ -24,41 +24,52 @@
 // ********************************************************************
 //
 //
-/// \file B1/src/ActionInitialization.cc
-/// \brief Implementation of the B1::ActionInitialization class
+/// \file B1/include/StackingAction.hh
+/// \brief Definition of the B1::StackingAction class
 
-#include "ActionInitialization.hh"
-#include "PrimaryGeneratorAction.hh"
-#include "RunAction.hh"
-#include "EventAction.hh"
-#include "SteppingAction.hh"
-#include "StackingAction.hh"
+#ifndef B1StackingAction_h
+#define B1StackingAction_h 1
+
+#include "G4UserStackingAction.hh"
+#include "G4SystemOfUnits.hh"
+#include "globals.hh"
+#include <unordered_map>
 
 namespace B1
 {
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+class RunAction;
 
-void ActionInitialization::BuildForMaster() const
+/// Stacking action class : manage the newly generated particles
+///
+/// One wishes do not track secondary neutrino.Therefore one kills it
+/// immediately, before created particles will  put in a stack.
+
+class StackingAction : public G4UserStackingAction
 {
-  auto runAction = new RunAction(NULL);
-  SetUserAction(runAction);
+    friend class RunAction;
+
+  public:
+    StackingAction() = default;
+    ~StackingAction() override = default;
+
+    G4ClassificationOfNewTrack ClassifyNewTrack(const G4Track*) override;
+
+    void ResetRecords();
+
+  private:
+    std::unordered_map<G4int, G4int> fGenerationMap;
+    std::unordered_map<G4int, G4double> fGlobalTimeMap;
+    G4int fMaxGeneration = 100;  // 0: unset
+    G4double fMaxGlobalTime = 6000 * ns;  // 0: unset
+
+    G4int GetAndRecordGeneration(const G4Track *track);
+    G4double GetAndRecordGlobalTime(const G4Track *track);
+};
+
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void ActionInitialization::Build() const
-{
-  SetUserAction(new PrimaryGeneratorAction);
-  auto stackingAction = new StackingAction;
-  SetUserAction(stackingAction);
-  auto runAction = new RunAction(stackingAction);
-  SetUserAction(runAction);
-  auto eventAction = new EventAction(runAction);
-  SetUserAction(eventAction);
-  SetUserAction(new SteppingAction(eventAction));
-}
+#endif
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-}
