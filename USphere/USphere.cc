@@ -34,6 +34,7 @@
 #include "G4SteppingVerbose.hh"
 #include "G4UImanager.hh"
 #include "QGSP_BIC_HP.hh"
+#include "G4StepLimiterPhysics.hh"
 
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
@@ -71,6 +72,9 @@ int main(int argc, char **argv)
   // Physics list
   auto physicsList = new QGSP_BIC_HP;
   physicsList->SetVerboseLevel(1);
+  auto stepLimiterPhysics = new G4StepLimiterPhysics;
+  stepLimiterPhysics->SetApplyToAll(true);
+  physicsList->RegisterPhysics(stepLimiterPhysics);
   runManager->SetUserInitialization(physicsList);
 
   // User action initialization

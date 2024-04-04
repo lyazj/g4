@@ -37,6 +37,7 @@
 #include "G4Sphere.hh"
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
+#include "G4UserLimits.hh"
 #include "G4SystemOfUnits.hh"
 
 namespace B1
@@ -67,6 +68,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
    */
   auto solidSphere = new G4Sphere("Sphere", 0.0, radius, 0, CLHEP::twopi, 0, CLHEP::pi);
   auto logicalSphere = new G4LogicalVolume(solidSphere, sphereMaterial, "Sphere");
+  logicalSphere->SetUserLimits(new G4UserLimits(0.01 * radius));
   new G4PVPlacement(0, { }, logicalSphere, "Sphere", logicalWorld, false, 0, checkOverlaps);
 
   /*
