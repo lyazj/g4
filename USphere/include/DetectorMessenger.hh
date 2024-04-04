@@ -24,52 +24,46 @@
 // ********************************************************************
 //
 //
-/// \file B1/include/StackingAction.hh
-/// \brief Definition of the B1::StackingAction class
+/// \file B1/include/DetectorMessenger.hh
+/// \brief Definition of the B1::DetectorMessenger class
 
-#ifndef B1StackingAction_h
-#define B1StackingAction_h 1
+#ifndef B1DetectorMessenger_h
+#define B1DetectorMessenger_h 1
 
-#include "G4UserStackingAction.hh"
-#include "G4SystemOfUnits.hh"
 #include "globals.hh"
-#include <unordered_map>
+#include "G4UImessenger.hh"
+
+class G4UIdirectory;
+class G4UIcmdWithADouble;
+class G4UIcmdWithADoubleAndUnit;
 
 namespace B1
 {
 
-class RunAction;
+class DetectorConstruction;
 
-/// Stacking action class : manage the newly generated particles
+/// Messenger class that defines commands for B1::DetectorConstruction.
 ///
-/// One wishes do not track secondary neutrino.Therefore one kills it
-/// immediately, before created particles will  put in a stack.
+/// It implements commands:
+/// - /det/setRadius value unit
+/// - /det/setU235Enrichment value
 
-class StackingAction : public G4UserStackingAction
+class DetectorMessenger: public G4UImessenger
 {
-    friend class RunAction;
-
   public:
-    StackingAction() = default;
-    ~StackingAction() override = default;
+    DetectorMessenger(DetectorConstruction *);
+    ~DetectorMessenger() override;
 
-    G4ClassificationOfNewTrack ClassifyNewTrack(const G4Track*) override;
-
-    void ResetRecords();
+    void SetNewValue(G4UIcommand *, G4String) override;
 
   private:
-    std::unordered_map<G4int, G4int> fGenerationMap;
-    std::unordered_map<G4int, G4double> fGlobalTimeMap;
-    G4int fMaxGeneration = 0;  // 0: unset
-    G4double fMaxGlobalTime = 3000 * ns;  // 0: unset
+    DetectorConstruction *fDetectorConstruction = nullptr;
 
-    G4int GetAndRecordGeneration(const G4Track *track);
-    G4double GetAndRecordGlobalTime(const G4Track *track);
+    G4UIdirectory *fDetDirectory = nullptr;
+    G4UIcmdWithADoubleAndUnit *fSetRadius = nullptr;
+    G4UIcmdWithADouble *fSetU235Enrichment = nullptr;
 };
 
 }
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
 #endif
-

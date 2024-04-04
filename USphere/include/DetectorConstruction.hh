@@ -32,6 +32,7 @@
 
 #include "G4VUserDetectorConstruction.hh"
 #include "G4ThreeVector.hh"
+#include "G4SystemOfUnits.hh"
 #include "globals.hh"
 
 class G4VPhysicalVolume;
@@ -41,21 +42,31 @@ class G4Material;
 namespace B1
 {
 
+class DetectorMessenger;
+
 /// Detector construction class to define materials and geometry.
 
 class DetectorConstruction : public G4VUserDetectorConstruction
 {
   public:
-    DetectorConstruction() = default;
-    ~DetectorConstruction() override = default;
+    DetectorConstruction();
+    ~DetectorConstruction();
 
     G4VPhysicalVolume *Construct() override;
-    G4LogicalVolume *GetScoringVolume() const { return fScoringVolume; }
+
+    void SetRadius(G4double radius);
+    void SetU235Enrichment(G4double enrichment);
 
   protected:
-    G4LogicalVolume *fScoringVolume = nullptr;
+    DetectorMessenger *fMessenger;
 
-    G4Material *GetUMaterial() const;
+    G4double fRadius = 8.7407 * cm;
+    G4double fU235Enrichment = 93.71;
+
+    G4LogicalVolume *fWorld = nullptr;
+    G4LogicalVolume *fSphere = nullptr;
+
+    G4Material *GetUMaterial(G4double U235Enrichment) const;
 };
 
 }

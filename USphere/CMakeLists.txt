@@ -39,6 +39,12 @@ include_directories(${ROOT_INCLUDE_DIRS})
 link_directories(${ROOT_LIBRARY_DIR})
 
 #----------------------------------------------------------------------------
+# General compile flags
+#
+add_compile_options(-O3)
+add_compile_options(-Wall -Wshadow -Wextra)
+
+#----------------------------------------------------------------------------
 # Locate sources and headers for this project
 # NB: headers are included so they will show up in IDEs
 #

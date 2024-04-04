@@ -24,52 +24,64 @@
 // ********************************************************************
 //
 //
-/// \file B1/include/StackingAction.hh
-/// \brief Definition of the B1::StackingAction class
+/// \file B1/src/DetectorMessenger.cc
+/// \brief Implementation of the B1::DetectorMessenger class
 
-#ifndef B1StackingAction_h
-#define B1StackingAction_h 1
+#include "DetectorMessenger.hh"
+#include "DetectorConstruction.hh"
 
-#include "G4UserStackingAction.hh"
-#include "G4SystemOfUnits.hh"
-#include "globals.hh"
-#include <unordered_map>
+#include "G4UIdirectory.hh"
+#include "G4UIcmdWithADouble.hh"
+#include "G4UIcmdWithADoubleAndUnit.hh"
 
 namespace B1
 {
 
-class RunAction;
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-/// Stacking action class : manage the newly generated particles
-///
-/// One wishes do not track secondary neutrino.Therefore one kills it
-/// immediately, before created particles will  put in a stack.
-
-class StackingAction : public G4UserStackingAction
+DetectorMessenger::DetectorMessenger(DetectorConstruction *det)
+ : fDetectorConstruction(det)
 {
-    friend class RunAction;
+  fDetDirectory = new G4UIdirectory("/det/");
+  fDetDirectory->SetGuidance("Detector construction control");
 
-  public:
-    StackingAction() = default;
-    ~StackingAction() override = default;
+  auto setRadius = new G4UIcmdWithADoubleAndUnit("/det/setRadius", this);
+  setRadius->SetGuidance("Specify Sphere radius.");
+  setRadius->SetParameterName("radius", false);
+  setRadius->AvailableForStates(G4State_PreInit, G4State_Idle);
+  fSetRadius = setRadius;
 
-    G4ClassificationOfNewTrack ClassifyNewTrack(const G4Track*) override;
-
-    void ResetRecords();
-
-  private:
-    std::unordered_map<G4int, G4int> fGenerationMap;
-    std::unordered_map<G4int, G4double> fGlobalTimeMap;
-    G4int fMaxGeneration = 0;  // 0: unset
-    G4double fMaxGlobalTime = 3000 * ns;  // 0: unset
-
-    G4int GetAndRecordGeneration(const G4Track *track);
-    G4double GetAndRecordGlobalTime(const G4Track *track);
-};
-
+  auto setU235Enrichment = new G4UIcmdWithADouble("/det/setU235Enrichment", this);
+  setU235Enrichment->SetGuidance("Specify U235 enrichment.");
+  setU235Enrichment->SetParameterName("enrichment", false);
+  setU235Enrichment->AvailableForStates(G4State_PreInit, G4State_Idle);
+  fSetU235Enrichment = setU235Enrichment;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-#endif
+DetectorMessenger::~DetectorMessenger()
+{
+  delete fSetU235Enrichment;
+  delete fSetRadius;
+  delete fDetDirectory;
+}
 
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+void DetectorMessenger::SetNewValue(G4UIcommand *command, G4String newValue)
+{
+  if(command == fSetRadius) {
+    fDetectorConstruction->SetRadius(fSetRadius->GetNewDoubleValue(newValue));
+    return;
+  }
+
+  if(command == fSetU235Enrichment) {
+    fDetectorConstruction->SetU235Enrichment(fSetU235Enrichment->GetNewDoubleValue(newValue));
+    return;
+  }
+}
+
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+}
