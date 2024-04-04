@@ -46,7 +46,7 @@ EventAction::EventAction(RunAction* runAction)
 
 void EventAction::BeginOfEventAction(const G4Event*)
 {
-  fEdep = 0.;
+
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -54,7 +54,6 @@ void EventAction::BeginOfEventAction(const G4Event*)
 void EventAction::EndOfEventAction(const G4Event*)
 {
   // accumulate statistics in run action
-  fRunAction->AddEdep(fEdep);
   fRunAction->FillTree();
 }
 

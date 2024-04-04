@@ -68,10 +68,10 @@ RunAction::RunAction(StackingAction *stackingAction)
   new G4UnitDefinition("nanogray" , "nanoGy"  , "Dose", nanogray);
   new G4UnitDefinition("picogray" , "picoGy"  , "Dose", picogray);
 
-  // Register accumulable to the accumulable manager
-  G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
-  accumulableManager->RegisterAccumulable(fEdep);
-  accumulableManager->RegisterAccumulable(fEdep2);
+  //// Register accumulable to the accumulable manager
+  //G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
+  //accumulableManager->RegisterAccumulable(fEdep);
+  //accumulableManager->RegisterAccumulable(fEdep2);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -94,26 +94,9 @@ void RunAction::EndOfRunAction(const G4Run* run)
 {
   DestroyTree();
 
-  G4int nofEvents = run->GetNumberOfEvent();
-  if (nofEvents == 0) return;
-
   // Merge accumulables
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->Merge();
-
-  // Compute dose = total energy deposit in a run and its variance
-  //
-  G4double edep  = fEdep.GetValue();
-  G4double edep2 = fEdep2.GetValue();
-
-  G4double rms = edep2 - edep*edep/nofEvents;
-  if (rms > 0.) rms = std::sqrt(rms); else rms = 0.;
-
-  const auto detConstruction = static_cast<const DetectorConstruction*>(
-    G4RunManager::GetRunManager()->GetUserDetectorConstruction());
-  G4double mass = detConstruction->GetScoringVolume()->GetMass();
-  G4double dose = edep/mass;
-  G4double rmsDose = rms/mass;
 
   // Run conditions
   //  note: There is no primary generator action object for "master"
@@ -127,7 +110,7 @@ void RunAction::EndOfRunAction(const G4Run* run)
     runCondition += particleGun->GetParticleDefinition()->GetParticleName();
     runCondition += " of ";
     G4double particleEnergy = particleGun->GetParticleEnergy();
-    runCondition += G4BestUnit(particleEnergy,"Energy");
+    runCondition += G4BestUnit(particleEnergy, "Energy");
   }
   if(runCondition.empty()) runCondition = "<empty>";
 
@@ -146,41 +129,14 @@ void RunAction::EndOfRunAction(const G4Run* run)
 
   G4cout
      << G4endl
-     << " The run consists of " << nofEvents << " " << runCondition
-     << " for body mass " << G4BestUnit(mass, "Mass")
-     << G4endl
-     << " Cumulated dose per run, in scoring volume : "
-     << G4BestUnit(dose, "Dose") << " rms = " << G4BestUnit(rmsDose, "Dose")
+     << " The run consists of " << run->GetNumberOfEvent() << " " << runCondition
      << G4endl
      << "------------------------------------------------------------"
      << G4endl
      << G4endl;
-
-  if(!IsMaster()) return;
-
-  // Compute effective dose for 1h of explosion.
-  G4double dose_1h = dose / nofEvents * (3.7e10 * 3600);
-
-  // Compute time for dose to accumulate to 20 milligray.
-  G4double hours_to_20mgy = 20e-3 * gray / dose_1h;
-
-  G4cout
-    << G4endl
-    << "Result: " << G4BestUnit(dose_1h, "Dose") << " per hour"
-    << ", " << hours_to_20mgy << " hours to " << G4BestUnit(20e-3 * gray, "Dose")
-    << ", precision " << (rmsDose / dose * 100) << "%"
-    << "."
-    << G4endl
-    << G4endl;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-void RunAction::AddEdep(G4double edep)
-{
-  fEdep  += edep;
-  fEdep2 += edep*edep;
-}
 
 void RunAction::FillTree()
 {

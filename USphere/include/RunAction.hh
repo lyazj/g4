@@ -68,9 +68,6 @@ class RunAction : public G4UserRunAction
   private:
     StackingAction *fStackingAction;
 
-    G4Accumulable<G4double> fEdep = 0.;
-    G4Accumulable<G4double> fEdep2 = 0.;
-
     G4String fFileName = "USphere.root";
     G4String fTreeName = "tree";
     TFile *fFile = NULL;
@@ -85,4 +82,3 @@ class RunAction : public G4UserRunAction
 }
 
 #endif
-

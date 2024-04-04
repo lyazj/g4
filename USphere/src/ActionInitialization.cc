@@ -31,7 +31,6 @@
 #include "PrimaryGeneratorAction.hh"
 #include "RunAction.hh"
 #include "EventAction.hh"
-#include "SteppingAction.hh"
 #include "StackingAction.hh"
 
 namespace B1
@@ -49,14 +48,17 @@ void ActionInitialization::BuildForMaster() const
 
 void ActionInitialization::Build() const
 {
-  SetUserAction(new PrimaryGeneratorAction);
+  auto primaryGeneratorAction = new PrimaryGeneratorAction;
+  SetUserAction(primaryGeneratorAction);
+
   auto stackingAction = new StackingAction;
   SetUserAction(stackingAction);
+
   auto runAction = new RunAction(stackingAction);
   SetUserAction(runAction);
+
   auto eventAction = new EventAction(runAction);
   SetUserAction(eventAction);
-  SetUserAction(new SteppingAction(eventAction));
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
