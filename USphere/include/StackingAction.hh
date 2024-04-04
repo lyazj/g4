@@ -61,7 +61,7 @@ class StackingAction : public G4UserStackingAction
     std::unordered_map<G4int, G4int> fGenerationMap;
     std::unordered_map<G4int, G4double> fGlobalTimeMap;
     G4int fMaxGeneration = 0;  // 0: unset
-    G4double fMaxGlobalTime = 3000 * ns;  // 0: unset
+    G4double fMaxGlobalTime = 1000 * ns;  // 0: unset
 
     G4int GetAndRecordGeneration(const G4Track *track);
     G4double GetAndRecordGlobalTime(const G4Track *track);

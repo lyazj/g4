@@ -194,7 +194,9 @@ void RunAction::FillTree()
 
   // Clean up.
   fNeutronGeneration.clear();
+  fNeutronGeneration.shrink_to_fit();
   fNeutronGlobalTime.clear();
+  fNeutronGlobalTime.shrink_to_fit();
 }
 
 void RunAction::InitializeTree()
