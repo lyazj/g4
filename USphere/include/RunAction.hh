@@ -32,11 +32,13 @@
 
 #include "G4UserRunAction.hh"
 #include "G4Accumulable.hh"
+#include "G4Threading.hh"
 #include "globals.hh"
 
 #include <vector>
 
 class G4Run;
+class G4Timer;
 class TFile;
 class TTree;
 
@@ -63,19 +65,27 @@ class RunAction : public G4UserRunAction
     void AddEdep (G4double edep);
 
     void FillTree();
-    void SaveTree();
 
   private:
     StackingAction *fStackingAction;
 
-    G4String fFileName = "USphere.root";
-    G4String fTreeName = "tree";
-    TFile *fFile = NULL;
-    TTree *fTree = NULL;
+    // Global I/O resources.
+    static G4Mutex fTreeMutex;
+    static G4String fFileName;
+    static G4String fTreeName;
+    static TFile *fFile;
+    static TTree *fTree;
+    static G4Timer *fTimer;
+    static G4double fTimeElapsed;
+    static G4double fTimeElapsedTotal;
+    static G4double fAutoSaveTimeSpan;
+
+    // Local I/O resources.
     std::vector<int> fNeutronGeneration;
     std::vector<double> fNeutronGlobalTime;
 
     void InitializeTree();
+    void SaveTree();
     void DestroyTree();
 };
 

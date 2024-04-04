@@ -40,6 +40,7 @@
 #include "G4ParticleGun.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
+#include "G4Timer.hh"
 
 #include <TFile.h>
 #include <TTree.h>
@@ -50,6 +51,16 @@
 
 namespace B1
 {
+
+G4Mutex RunAction::fTreeMutex;
+G4String RunAction::fFileName = "USphere.root";
+G4String RunAction::fTreeName = "tree";
+TFile *RunAction::fFile;
+TTree *RunAction::fTree;
+G4Timer *RunAction::fTimer;
+G4double RunAction::fTimeElapsed;
+G4double RunAction::fTimeElapsedTotal;
+G4double RunAction::fAutoSaveTimeSpan = 10.0;
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -85,14 +96,14 @@ void RunAction::BeginOfRunAction(const G4Run*)
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->Reset();
 
-  InitializeTree();
+  if(G4Threading::IsMasterThread()) InitializeTree();
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void RunAction::EndOfRunAction(const G4Run* run)
 {
-  DestroyTree();
+  if(G4Threading::IsMasterThread()) DestroyTree();
 
   // Merge accumulables
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
@@ -161,7 +172,22 @@ void RunAction::FillTree()
     fNeutronGeneration.push_back(generation);
     fNeutronGlobalTime.push_back(globalTime / ns);
   }
-  fTree->Fill();
+
+  // Output data.
+  {
+    G4AutoLock lock(fTreeMutex);
+
+    // Fill tree.
+    *(void **)fTree->GetBranch("NeutronGeneration")->GetAddress() = (void *)&fNeutronGeneration;
+    *(void **)fTree->GetBranch("NeutronGlobalTime")->GetAddress() = (void *)&fNeutronGlobalTime;
+    fTree->Fill();
+
+    // Save tree periodically.
+    fTimer->Stop();
+    fTimeElapsed += fTimer->GetRealElapsed();
+    fTimer->Start();
+    if(fTimeElapsed > fAutoSaveTimeSpan) SaveTree();
+  }
 
   // Reset stacking controller.
   fStackingAction->ResetRecords();
@@ -171,21 +197,28 @@ void RunAction::FillTree()
   fNeutronGlobalTime.clear();
 }
 
-void RunAction::SaveTree()
-{
-  fTree->AutoSave("SaveSelf, Overwrite");
-}
-
 void RunAction::InitializeTree()
 {
   fFile = new TFile(fFileName, "RECREATE");
   fTree = new TTree(fTreeName, fTreeName);
   fTree->Branch("NeutronGeneration", &fNeutronGeneration);
   fTree->Branch("NeutronGlobalTime", &fNeutronGlobalTime);
+  fTimer = new G4Timer;
+  fTimer->Start();
+}
+
+void RunAction::SaveTree()
+{
+  fTimeElapsedTotal += fTimeElapsed;
+  fTimeElapsed = 0.0;
+  G4cout << "AutoSave: saving " << fTree->GetEntries() << " events ("
+         << fTimeElapsedTotal << " secs elapsed)" << G4endl;
+  fTree->AutoSave("SaveSelf, Overwrite");
 }
 
 void RunAction::DestroyTree()
 {
+  delete fTimer;
   fFile->cd();
   fTree->Write(fTreeName, fTree->kOverwrite);
   delete fTree;
