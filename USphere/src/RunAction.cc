@@ -201,7 +201,8 @@ void RunAction::FillTree()
 
 void RunAction::InitializeTree()
 {
-  fFile = new TFile(fFileName, "RECREATE");
+  fFile = new TFile(fFileName, "NEW");
+  if(!fFile->IsOpen()) throw std::runtime_error("error opening output file: " + fFileName);
   fTree = new TTree(fTreeName, fTreeName);
   fTree->Branch("NeutronGeneration", &fNeutronGeneration);
   fTree->Branch("NeutronGlobalTime", &fNeutronGlobalTime);
