@@ -70,7 +70,8 @@ G4int StackingAction::GetAndRecordGeneration(const G4Track *track)
   // The parent must have been recorded by an earlier call to this method.
   G4int parentID = track->GetParentID();
   G4int generation = 1;
-  if(parentID) generation += fGenerationMap.at(parentID);
+  it = fGenerationMap.find(parentID);
+  if(it != fGenerationMap.end()) generation += it->second;
   fGenerationMap.emplace(ID, generation);
   return generation;
 }
