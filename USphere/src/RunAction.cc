@@ -35,8 +35,6 @@
 #include "G4RunManager.hh"
 #include "G4Run.hh"
 #include "G4AccumulableManager.hh"
-#include "G4LogicalVolumeStore.hh"
-#include "G4LogicalVolume.hh"
 #include "G4ParticleGun.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
@@ -53,7 +51,7 @@ namespace B1
 {
 
 G4Mutex RunAction::fTreeMutex;
-G4String RunAction::fFileName = "USphere.root";
+G4String RunAction::fFileName = "USphere";
 G4String RunAction::fTreeName = "tree";
 TFile *RunAction::fFile;
 TTree *RunAction::fTree;
@@ -201,7 +199,10 @@ void RunAction::FillTree()
 
 void RunAction::InitializeTree()
 {
-  fFile = new TFile(fFileName, "NEW");
+  auto detectorConstruction = (DetectorConstruction *)
+    G4RunManager::GetRunManager()->GetUserDetectorConstruction();
+  G4double radius = detectorConstruction->GetRadius() / cm;
+  fFile = new TFile((fFileName + "-" + std::to_string(radius) + ".root").c_str(), "NEW");
   if(!fFile->IsOpen()) throw std::runtime_error("error opening output file: " + fFileName);
   fTree = new TTree(fTreeName, fTreeName);
   fTree->Branch("NeutronGeneration", &fNeutronGeneration);

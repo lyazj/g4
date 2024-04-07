@@ -55,7 +55,9 @@ class DetectorConstruction : public G4VUserDetectorConstruction
     G4VPhysicalVolume *Construct() override;
 
     void SetRadius(G4double radius);
+    G4double GetRadius() const { return fRadius; }
     void SetU235Enrichment(G4double enrichment);
+    G4double GetU235Enrichment() const { return fU235Enrichment; }
 
   protected:
     DetectorMessenger *fMessenger;

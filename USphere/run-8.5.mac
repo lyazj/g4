@@ -1,0 +1,4 @@
+/det/setRadius 8.5 cm
+/det/setU235Enrichment 93.71
+/run/initialize
+/run/beamOn 10000
