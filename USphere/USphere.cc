@@ -80,15 +80,6 @@ int main(int argc, char **argv)
   // User action initialization
   runManager->SetUserInitialization(new ActionInitialization());
 
-  // Initialize visualization with the default graphics system
-  auto visManager = new G4VisExecutive(argc, argv);
-  // Constructors can also take optional arguments:
-  // - a graphics system of choice, eg. "OGL"
-  // - and a verbosity argument - see /vis/verbose guidance.
-  // auto visManager = new G4VisExecutive(argc, argv, "OGL", "Quiet");
-  // auto visManager = new G4VisExecutive("Quiet");
-  visManager->Initialize();
-
   // Get the pointer to the User Interface manager
   auto UImanager = G4UImanager::GetUIpointer();
 
@@ -115,7 +106,6 @@ int main(int argc, char **argv)
   // owned and deleted by the run manager, so they should not be deleted
   // in the main() program !
 
-  delete visManager;
   delete runManager;
 }
 
