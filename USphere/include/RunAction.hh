@@ -70,7 +70,6 @@ class RunAction : public G4UserRunAction
     StackingAction *fStackingAction;
 
     // Global I/O resources.
-    static G4Mutex fTreeMutex;
     static G4String fFileName;
     static G4String fTreeName;
     static TFile *fFile;

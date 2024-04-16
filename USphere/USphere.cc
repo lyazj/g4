@@ -60,11 +60,9 @@ int main(int argc, char **argv)
   G4SteppingVerbose::UseBestUnit(precision);
 
   // Construct the default run manager
-  // Tasking run maneger does not work, but I don't know the reason
   //
   auto runManager =
-    G4RunManagerFactory::CreateRunManager(G4RunManagerType::MT);
-  runManager->SetNumberOfThreads(G4Threading::G4GetNumberOfCores());
+    G4RunManagerFactory::CreateRunManager(G4RunManagerType::Serial);
 
   // Set mandatory initialization classes
   //

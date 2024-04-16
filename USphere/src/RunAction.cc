@@ -50,7 +50,6 @@
 namespace B1
 {
 
-G4Mutex RunAction::fTreeMutex;
 G4String RunAction::fFileName = "USphere";
 G4String RunAction::fTreeName = "tree";
 TFile *RunAction::fFile;
@@ -94,14 +93,14 @@ void RunAction::BeginOfRunAction(const G4Run*)
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->Reset();
 
-  if(G4Threading::IsMasterThread()) InitializeTree();
+  InitializeTree();
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void RunAction::EndOfRunAction(const G4Run* run)
 {
-  if(G4Threading::IsMasterThread()) DestroyTree();
+  DestroyTree();
 
   // Merge accumulables
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
@@ -171,21 +170,14 @@ void RunAction::FillTree()
     fNeutronGlobalTime.push_back(globalTime / ns);
   }
 
-  // Output data.
-  {
-    G4AutoLock lock(fTreeMutex);
+  // Fill tree.
+  fTree->Fill();
 
-    // Fill tree.
-    *(void **)fTree->GetBranch("NeutronGeneration")->GetAddress() = (void *)&fNeutronGeneration;
-    *(void **)fTree->GetBranch("NeutronGlobalTime")->GetAddress() = (void *)&fNeutronGlobalTime;
-    fTree->Fill();
-
-    // Save tree periodically.
-    fTimer->Stop();
-    fTimeElapsed += fTimer->GetRealElapsed();
-    fTimer->Start();
-    if(fTimeElapsed > fAutoSaveTimeSpan) SaveTree();
-  }
+  // Save tree periodically.
+  fTimer->Stop();
+  fTimeElapsed += fTimer->GetRealElapsed();
+  fTimer->Start();
+  if(fTimeElapsed > fAutoSaveTimeSpan) SaveTree();
 
   // Reset stacking controller.
   fStackingAction->ResetRecords();
