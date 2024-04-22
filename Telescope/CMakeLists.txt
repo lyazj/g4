@@ -29,6 +29,7 @@ link_directories(${ROOT_LIBRARY_DIR})
 #
 add_compile_options(-O3)
 add_compile_options(-Wall -Wshadow -Wextra)
+add_compile_definitions(BASEDIR="${PROJECT_SOURCE_DIR}")
 
 #----------------------------------------------------------------------------
 # Locate sources and headers for this project
@@ -38,7 +39,15 @@ file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 
 #----------------------------------------------------------------------------
-# Add the executable, and link it to the Geant4 libraries
+# Add the library, and link it to ROOT libraries
 #
-add_executable(Telescope Telescope.cc ${sources} ${headers})
-target_link_libraries(Telescope ROOT::Tree)
+add_library(Common SHARED ${sources} ${headers})
+target_link_libraries(Common PUBLIC ${ROOT_LIBRARIES})
+
+#----------------------------------------------------------------------------
+# Add executables, and link them to the Common library
+#
+add_executable(Telescope Telescope.cc)
+target_link_libraries(Telescope Common)
+add_executable(DrawLise DrawLise.cc)
+target_link_libraries(DrawLise Common)
