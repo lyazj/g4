@@ -1,5 +1,4 @@
 #include "LiseHelper.hh"
-
 #include <iostream>
 #include <fstream>
 #include <TGraph.h>
@@ -74,7 +73,7 @@ LiseHelper::LiseHelper(LiseHelper &&lise)
 
 vector<std::string> LiseHelper::ListItem()
 {
-  FILE *pipe = popen("ls '" BASEDIR "'/data/*.txt", "r");
+  FILE *pipe = popen("ls '" BASEDIR "'/data/*.txt | sort -V", "r");
   if(!pipe) return { };
 
   vector<string> list;
