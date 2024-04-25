@@ -43,10 +43,17 @@
 
 using namespace B1;
 
+#include <unistd.h>
+
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 int main(int argc, char **argv)
 {
+  // Use X11 instead of Wayland for compatibility
+  if(!strcasecmp(getenv("XDG_SESSION_TYPE") ? : "", "wayland")) {
+    setenv("XDG_SESSION_TYPE", "x11", 1);
+  }
+
   // Detect interactive mode (if no arguments) and define UI session
   //
   G4UIExecutive* ui = nullptr;
